@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { commandsData, Command, CommandCategory } from '@/data/commands';
 import { punishmentsData, Punishment } from '@/data/punishments';
 import Markdown from 'react-markdown';
+import { GeneralRules } from '@/app/components/GeneralRules';
 
 const categoryIcons: Record<CommandCategory, React.ReactNode> = {
   ADM: <ShieldAlert className="w-4 h-4" />,
@@ -89,17 +90,28 @@ export default function Home() {
       filtered = filtered.filter(cmd => cmd.category === activeCategory);
     }
 
-    if (!query.trim()) {
+    const cleanQuery = query
+      .toLowerCase()
+      .replace(/como /g, '')
+      .replace(/fazer /g, '')
+      .replace(/para /g, '')
+      .replace(/o que é /g, '')
+      .replace(/quero /g, '')
+      .replace(/[?]/g, '')
+      .trim();
+
+    if (!cleanQuery) {
       return filtered;
     }
 
     const fuseInstance = new Fuse(filtered, {
-      keys: ['name', 'description'],
+      keys: ['name', 'description', 'tags'],
       threshold: 0.4,
       ignoreLocation: true,
+      useExtendedSearch: true,
     });
     
-    return fuseInstance.search(query).map(result => result.item);
+    return fuseInstance.search(cleanQuery).map(result => result.item);
   }, [query, activeCategory]);
 
   // Punishments Filter Logic
@@ -298,7 +310,7 @@ ${formattedRules}`;
       </div>
 
       {/* Main Content Area */}
-      <div className="flex-1 max-w-4xl w-full mx-auto px-6 py-8 flex flex-col">
+      <div className="flex-1 max-w-6xl w-full mx-auto px-6 py-8 flex flex-col">
         {activeTab === 'COMANDOS' ? (
           <motion.div 
             initial={{ opacity: 0, y: 10 }}
@@ -465,7 +477,7 @@ ${formattedRules}`;
                       ) : (
                         <tr>
                           <td colSpan={2} className="py-12 text-center text-zinc-500">
-                            Nenhuma punição encontrada para "{punishmentsQuery}".
+                            Nenhuma punição encontrada para &quot;{punishmentsQuery}&quot;.
                           </td>
                         </tr>
                       )}
@@ -635,70 +647,92 @@ ${formattedRules}`;
           <motion.div 
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="flex flex-col h-[600px] bg-zinc-900/30 border border-white/10 rounded-3xl overflow-hidden shadow-2xl"
+            className="flex flex-col lg:flex-row gap-6 h-[800px]"
           >
-            {/* Chat Messages */}
-            <div className="flex-1 overflow-y-auto p-6 space-y-6 scroll-smooth">
-              {messages.map((msg) => (
-                <div 
-                  key={msg.id} 
-                  className={`flex gap-4 ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}
-                >
-                  <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${
-                    msg.role === 'user' 
-                      ? 'bg-indigo-500/20 border border-indigo-500/30 text-indigo-400' 
-                      : 'bg-cyan-500/20 border border-cyan-500/30 text-cyan-400'
-                  }`}>
-                    {msg.role === 'user' ? <User className="w-5 h-5" /> : <Bot className="w-5 h-5" />}
-                  </div>
-                  <div className={`max-w-[80%] rounded-2xl p-4 ${
-                    msg.role === 'user' 
-                      ? 'bg-indigo-600 text-white rounded-tr-sm' 
-                      : 'bg-zinc-800/80 border border-white/5 text-zinc-200 rounded-tl-sm'
-                  }`}>
-                    {msg.role === 'user' ? (
-                      <p className="whitespace-pre-wrap">{msg.content}</p>
-                    ) : (
-                      <div className="prose prose-invert prose-sm max-w-none prose-p:leading-relaxed prose-pre:bg-black/50 prose-pre:border prose-pre:border-white/10">
-                        <Markdown>{msg.content}</Markdown>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ))}
-              {isLoading && (
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 flex items-center justify-center shrink-0">
-                    <Bot className="w-5 h-5" />
-                  </div>
-                  <div className="bg-zinc-800/80 border border-white/5 rounded-2xl rounded-tl-sm p-4 flex items-center gap-2">
-                    <Loader2 className="w-4 h-4 text-cyan-400 animate-spin" />
-                    <span className="text-zinc-400 text-sm">Consultando as regras...</span>
-                  </div>
-                </div>
-              )}
-              <div ref={messagesEndRef} />
+            {/* Rules Content */}
+            <div className="flex-1 bg-zinc-900/30 border border-white/10 rounded-3xl overflow-hidden shadow-2xl flex flex-col">
+              <div className="p-4 bg-zinc-900/80 border-b border-white/5 backdrop-blur-md shrink-0">
+                <h2 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
+                  <BookOpen className="w-5 h-5" />
+                  Regras Gerais
+                </h2>
+              </div>
+              <div className="flex-1 overflow-y-auto scroll-smooth custom-scrollbar">
+                <GeneralRules />
+              </div>
             </div>
 
-            {/* Chat Input */}
-            <div className="p-4 bg-zinc-900/80 border-t border-white/5 backdrop-blur-md">
-              <form onSubmit={handleSendMessage} className="relative flex items-center">
-                <input
-                  type="text"
-                  value={chatInput}
-                  onChange={(e) => setChatInput(e.target.value)}
-                  placeholder="Pergunte algo sobre as regras (ex: O que é VDM?)"
-                  className="w-full bg-black/50 border border-white/10 rounded-xl py-4 pl-4 pr-14 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 transition-all"
-                  disabled={isLoading}
-                />
-                <button
-                  type="submit"
-                  disabled={!chatInput.trim() || isLoading}
-                  className="absolute right-2 w-10 h-10 flex items-center justify-center bg-cyan-500 hover:bg-cyan-400 text-black rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  <Send className="w-5 h-5 ml-0.5" />
-                </button>
-              </form>
+            {/* Chat Interface */}
+            <div className="flex-1 flex flex-col bg-zinc-900/30 border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+              <div className="p-4 bg-zinc-900/80 border-b border-white/5 backdrop-blur-md shrink-0">
+                <h2 className="text-xl font-bold text-indigo-400 flex items-center gap-2">
+                  <Bot className="w-5 h-5" />
+                  Assistente IA de Regras
+                </h2>
+              </div>
+              {/* Chat Messages */}
+              <div className="flex-1 overflow-y-auto p-6 space-y-6 scroll-smooth custom-scrollbar">
+                {messages.map((msg) => (
+                  <div 
+                    key={msg.id} 
+                    className={`flex gap-4 ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}
+                  >
+                    <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${
+                      msg.role === 'user' 
+                        ? 'bg-indigo-500/20 border border-indigo-500/30 text-indigo-400' 
+                        : 'bg-cyan-500/20 border border-cyan-500/30 text-cyan-400'
+                    }`}>
+                      {msg.role === 'user' ? <User className="w-5 h-5" /> : <Bot className="w-5 h-5" />}
+                    </div>
+                    <div className={`max-w-[80%] rounded-2xl p-4 ${
+                      msg.role === 'user' 
+                        ? 'bg-indigo-600 text-white rounded-tr-sm' 
+                        : 'bg-zinc-800/80 border border-white/5 text-zinc-200 rounded-tl-sm'
+                    }`}>
+                      {msg.role === 'user' ? (
+                        <p className="whitespace-pre-wrap">{msg.content}</p>
+                      ) : (
+                        <div className="prose prose-invert prose-sm max-w-none prose-p:leading-relaxed prose-pre:bg-black/50 prose-pre:border prose-pre:border-white/10">
+                          <Markdown>{msg.content}</Markdown>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+                {isLoading && (
+                  <div className="flex gap-4">
+                    <div className="w-10 h-10 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 flex items-center justify-center shrink-0">
+                      <Bot className="w-5 h-5" />
+                    </div>
+                    <div className="bg-zinc-800/80 border border-white/5 rounded-2xl rounded-tl-sm p-4 flex items-center gap-2">
+                      <Loader2 className="w-4 h-4 text-cyan-400 animate-spin" />
+                      <span className="text-zinc-400 text-sm">Consultando as regras...</span>
+                    </div>
+                  </div>
+                )}
+                <div ref={messagesEndRef} />
+              </div>
+
+              {/* Chat Input */}
+              <div className="p-4 bg-zinc-900/80 border-t border-white/5 backdrop-blur-md shrink-0">
+                <form onSubmit={handleSendMessage} className="relative flex items-center">
+                  <input
+                    type="text"
+                    value={chatInput}
+                    onChange={(e) => setChatInput(e.target.value)}
+                    placeholder="Pergunte algo sobre as regras (ex: O que é VDM?)"
+                    className="w-full bg-black/50 border border-white/10 rounded-xl py-4 pl-4 pr-14 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/50 transition-all"
+                    disabled={isLoading}
+                  />
+                  <button
+                    type="submit"
+                    disabled={!chatInput.trim() || isLoading}
+                    className="absolute right-2 w-10 h-10 flex items-center justify-center bg-cyan-500 hover:bg-cyan-400 text-black rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <Send className="w-5 h-5 ml-0.5" />
+                  </button>
+                </form>
+              </div>
             </div>
           </motion.div>
         )}

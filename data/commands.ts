@@ -13,13 +13,14 @@ export interface Command {
   name: string;
   description: string;
   category: CommandCategory;
+  tags?: string[];
 }
 
 export const commandsData: Command[] = [
   // COMANDOS ADM
-  { id: 'adm-1', name: 'NC', description: 'ficar invisivel', category: 'ADM' },
-  { id: 'adm-2', name: 'WALL', description: 'enxergar atráves de qualquer obstáculo (nome/id/etcetera e tal)', category: 'ADM' },
-  { id: 'adm-3', name: 'FIX', description: 'conserta veiculo', category: 'ADM' },
+  { id: 'adm-1', name: 'NC', description: 'ficar invisivel', category: 'ADM', tags: ['voar', 'noclip', 'esconder'] },
+  { id: 'adm-2', name: 'WALL', description: 'enxergar atráves de qualquer obstáculo (nome/id/etcetera e tal)', category: 'ADM', tags: ['ver', 'parede', 'nomes', 'id'] },
+  { id: 'adm-3', name: 'FIX', description: 'conserta veiculo', category: 'ADM', tags: ['arrumar', 'reparar', 'carro', 'moto'] },
   { id: 'adm-4', name: 'TPTO', description: 'da tp ate algum jogador', category: 'ADM' },
   { id: 'adm-5', name: 'TPTOME', description: 'puxa jogador', category: 'ADM' },
   { id: 'adm-6', name: 'TPWAY', description: 'da tp na onde vc marcou no mapa', category: 'ADM' },
@@ -27,13 +28,13 @@ export const commandsData: Command[] = [
   { id: 'adm-8', name: 'AA', description: 'digita no chat para so staff ver', category: 'ADM' },
   { id: 'adm-9', name: 'EXP SAIR', description: 'desativar os poderes', category: 'ADM' },
   { id: 'adm-10', name: 'EXP ENTRAR', description: 'ativar os poderes', category: 'ADM' },
-  { id: 'adm-11', name: 'H', description: 'pega alguem no braço', category: 'ADM' },
-  { id: 'adm-12', name: 'G', description: 'algema a pessoa que estiver proximo', category: 'ADM' },
+  { id: 'adm-11', name: 'H', description: 'pega alguem no braço', category: 'ADM', tags: ['carregar', 'ombro', 'segurar'] },
+  { id: 'adm-12', name: 'G', description: 'algema a pessoa que estiver proximo', category: 'ADM', tags: ['prender', 'algemar'] },
   { id: 'adm-13', name: 'CDS', description: 'ver coordenadas', category: 'ADM' },
   { id: 'adm-14', name: 'TPCDS', description: 'da tp nas coordenadas', category: 'ADM' },
   { id: 'adm-15', name: 'CDSGARAGEM', description: 'da tp em alguma coordenadas de alguma garagem', category: 'ADM' },
-  { id: 'adm-16', name: 'GOD', description: 'auto reviver', category: 'ADM' },
-  { id: 'adm-17', name: 'GOD ID', description: 'reviver um player', category: 'ADM' },
+  { id: 'adm-16', name: 'GOD', description: 'auto reviver', category: 'ADM', tags: ['curar', 'vida', 'viver'] },
+  { id: 'adm-17', name: 'GOD ID', description: 'reviver um player', category: 'ADM', tags: ['curar', 'vida', 'viver'] },
   { id: 'adm-18', name: 'GODD', description: 'da colete em si mesmo', category: 'ADM' },
   { id: 'adm-19', name: 'GODD2', description: 'dar colete em todo mundo', category: 'ADM' },
   { id: 'adm-20', name: 'GODAREA', description: 'da god em todo mundo de uma vez', category: 'ADM' },
@@ -42,9 +43,9 @@ export const commandsData: Command[] = [
   { id: 'adm-23', name: 'STATUS 3', description: 'ver quantos policial estão online', category: 'ADM' },
   { id: 'adm-24', name: 'STATUSFAC', description: 'status de facções', category: 'ADM' },
   { id: 'adm-25', name: 'RG2', description: 'ver a identidade da pessoa', category: 'ADM' },
-  { id: 'adm-26', name: 'CUFF', description: 'algema si próprio ou desalgemar', category: 'ADM' },
-  { id: 'adm-27', name: 'CUFF ID', description: 'algema algum jogador', category: 'ADM' },
-  { id: 'adm-28', name: 'PRENDERADM', description: 'prender algum jogador com prisão adm', category: 'ADM' },
+  { id: 'adm-26', name: 'CUFF', description: 'algema si próprio ou desalgemar', category: 'ADM', tags: ['prender', 'soltar'] },
+  { id: 'adm-27', name: 'CUFF ID', description: 'algema algum jogador', category: 'ADM', tags: ['prender'] },
+  { id: 'adm-28', name: 'PRENDERADM', description: 'prender algum jogador com prisão adm', category: 'ADM', tags: ['cadeia', 'punir', 'ban'] },
   { id: 'adm-29', name: 'AVISODM', description: 'da um aviso para a cidade toda ver com o nome enviado pela prefeitura', category: 'ADM' },
   { id: 'adm-30', name: 'AVISODM2', description: 'da um aviso para a cidade toda ver com o nome enviado pela prefeitura', category: 'ADM' },
   { id: 'adm-31', name: 'KILL', description: 'matar a si mesmo', category: 'ADM' },
@@ -55,9 +56,9 @@ export const commandsData: Command[] = [
   { id: 'adm-36', name: 'BANSRC', description: 'banir o jogador pela source', category: 'ADM' },
   { id: 'adm-37', name: 'HBAN ID', description: 'banir o jogador com algum motivo', category: 'ADM' },
   { id: 'adm-38', name: 'HBAN2', description: 'banir alguem com o motivo (hack)', category: 'ADM' },
-  { id: 'adm-39', name: 'UNBAN ID', description: 'desbanir algum jogador', category: 'ADM' },
-  { id: 'adm-40', name: 'ITEM', description: 'spawnar algum item', category: 'ADM' },
-  { id: 'adm-41', name: 'CAR', description: 'spawnar algum veiculo', category: 'ADM' },
+  { id: 'adm-39', name: 'UNBAN ID', description: 'desbanir algum jogador', category: 'ADM', tags: ['despunir', 'liberar'] },
+  { id: 'adm-40', name: 'ITEM', description: 'spawnar algum item', category: 'ADM', tags: ['pegar', 'criar', 'dar'] },
+  { id: 'adm-41', name: 'CAR', description: 'spawnar algum veiculo', category: 'ADM', tags: ['pegar', 'criar', 'carro', 'moto'] },
   { id: 'adm-42', name: 'E2', description: 'fazer algum jogador que estiver próximo executar alguma animação', category: 'ADM' },
   { id: 'adm-43', name: 'TUNING', description: 'tunar qualquer veiculo próximo', category: 'ADM' },
   { id: 'adm-44', name: 'ORGADM', description: 'entrar em alguma organização', category: 'ADM' },
@@ -87,6 +88,8 @@ export const commandsData: Command[] = [
   { id: 'adm-68', name: 'GOTO ID', description: 'ir até um jogador', category: 'ADM' },
   { id: 'adm-69', name: 'SETJOB ID', description: 'setar emprego/facção de um jogador', category: 'ADM' },
   { id: 'adm-70', name: 'GIVEMONEY ID', description: 'dar dinheiro para um jogador', category: 'ADM' },
+  { id: 'adm-71', name: 'ADDBL ID', description: 'colocar camisa de força (adicionar blacklist)', category: 'ADM', tags: ['prender', 'punir', 'louco', 'hospicio', 'addbl'] },
+  { id: 'adm-72', name: 'REMBL ID', description: 'tirar camisa de força (remover blacklist)', category: 'ADM', tags: ['soltar', 'despunir', 'rembl'] },
 
   // COMANDOS RESP EVENTOS
   { id: 'evt-1', name: 'KITFESTA', description: 'eventos', category: 'EVENTOS' },
