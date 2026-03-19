@@ -1,0 +1,8821 @@
+{
+  "cars": [
+    {
+      "model": "intruder",
+      "name": "Intruder",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "exemplar",
+      "name": "Exemplar",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "f620",
+      "name": "F620",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "felon",
+      "name": "Felon",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "ingot",
+      "name": "Ingot",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "jackal",
+      "name": "Jackal",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "oracle",
+      "name": "Oracle",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "oracle2",
+      "name": "Oracle2",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "sentinel",
+      "name": "Sentinel",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "sentinel2",
+      "name": "Sentinel2",
+      "trunk": 40,
+      "type": "sedans"
+    },
+    {
+      "model": "windsor",
+      "name": "Windsor",
+      "trunk": 20,
+      "type": "sedans"
+    },
+    {
+      "model": "windsor2",
+      "name": "Windsor2",
+      "trunk": 40,
+      "type": "sedans"
+    },
+    {
+      "model": "zion",
+      "name": "Zion",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "zion2",
+      "name": "Zion2",
+      "trunk": 40,
+      "type": "sedans"
+    },
+    {
+      "model": "blade",
+      "name": "Blade",
+      "trunk": 40,
+      "type": "sedans"
+    },
+    {
+      "model": "buccaneer",
+      "name": "Buccaneer",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "buccaneer2",
+      "name": "Buccaneer2",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "primo",
+      "name": "Primo",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "issi2",
+      "name": "Issi2",
+      "trunk": 20,
+      "type": "sedans"
+    },
+    {
+      "model": "prairie",
+      "name": "Prairie",
+      "trunk": 25,
+      "type": "sedans"
+    },
+    {
+      "model": "rhapsody",
+      "name": "Rhapsody",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "cogcabrio",
+      "name": "Cogcabrio",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "emperor",
+      "name": "Emperor",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "emperor2",
+      "name": "Emperor 2",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "phoenix",
+      "name": "Phoenix",
+      "trunk": 40,
+      "type": "sedans"
+    },
+    {
+      "model": "premier",
+      "name": "Premier",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "glendale",
+      "name": "Glendale",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "mansoryg63",
+      "name": "Benefactor P900 Mansory",
+      "trunk": 350,
+      "type": "vip"
+    },
+    {
+      "model": "schlagengt4wb",
+      "name": "Benefactor Schlagen GT4S Widebody",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "purple",
+      "name": "purple",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "pbfl5nfs",
+      "name": "pbfl5nfs",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "zlay_ZWsportsMK5",
+      "name": "zlay_ZWsportsMK5",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "gstbaron1",
+      "name": "gstbaron1",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "gstt203",
+      "name": "gstt203",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "22g63",
+      "name": "22g63",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "bigr1200",
+      "name": "bigr1200",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "lotusraptor",
+      "name": "Raptor",
+      "trunk": 180,
+      "type": "service"
+    },
+    {
+      "model": "firetruk",
+      "name": "Firetruk",
+      "trunk": 180,
+      "type": "service"
+    },
+    {
+      "model": "lotusscania",
+      "name": "Scania",
+      "trunk": 180,
+      "type": "service"
+    },
+    {
+      "model": "wrtrxmeclotus",
+      "name": "wrtrxmeclotus",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "wrflatbedlotus",
+      "name": "wrflatbedlotus",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "wrbugbomb",
+      "name": "wrbugbomb",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "wrtrxmecdk",
+      "name": "wrtrxmecdk",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "wrflatbeddk",
+      "name": "wrflatbeddk",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "wrflatbedking",
+      "name": "Guincho DK",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "wrtrxmecking",
+      "name": "Trx DK",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "wrxl750king",
+      "name": "Moto DK",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "wrflatbedpl",
+      "name": "Guincho Customs",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "wrtrxmecpl",
+      "name": "Trx Customs",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "wrxl750pl",
+      "name": "Moto Customs",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "wrtrxmecmotors",
+      "name": "wrtrxmecmotors",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "wrflatbedmotors",
+      "name": "wrflatbedmotors",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "WRVolito",
+      "name": "Helicoptero HP",
+      "trunk": 180,
+      "type": "service"
+    },
+    {
+      "model": "veto2",
+      "name": "Veto 2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "caddy",
+      "name": "Caddy",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "dominator6",
+      "name": "Dominator 6",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "openwheel2",
+      "name": "Open Wheel",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "tractor",
+      "name": "Tractor",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "cerberus3",
+      "name": "Jeep 20",
+      "trunk": 3000,
+      "type": "vip"
+    },
+    {
+      "model": "gburrito2",
+      "name": "Jeep 20",
+      "trunk": 1000,
+      "type": "vip"
+    },
+    {
+      "model": "mulemaka",
+      "name": "Mule Makakero",
+      "trunk": 1500,
+      "type": "vip"
+    },
+    {
+      "model": "orosremap",
+      "name": "Oros Remap",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "narremap",
+      "name": "NA Remap",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "dmevo",
+      "name": "DM EVO",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrharryii",
+      "name": "wrharryii",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "cs500HG",
+      "name": "cs500HG",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "GODzEVXDRIFT",
+      "name": "GODzEVXDRIFT",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "gsts951",
+      "name": "gsts951",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "jesterk5",
+      "name": "jesterk5",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "wdrzreaper",
+      "name": "wdrzreaper",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "gbprospero",
+      "name": "gbprospero",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "escaladesport",
+      "name": "escaladesport",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "jeep20",
+      "name": "Jeep 20",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "duke90",
+      "name": "duke90",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "vw23gti",
+      "name": "vw23gti",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrcorollaciv",
+      "name": "Corolla",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "evoquecabrio",
+      "name": "Evoque Cabrio",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrthundersasuke",
+      "name": "wrthundersasuke",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2xla80neondragon",
+      "name": "2xla80neondragon",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "freecrawler",
+      "name": "freecrawler",
+      "trunk": 350,
+      "type": "vip"
+    },
+    {
+      "model": "impala67",
+      "name": "Impala Supernatural",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "truckhalloween",
+      "name": "Caminhão Halloween",
+      "trunk": 2000,
+      "type": "vip"
+    },
+    {
+      "model": "zxhalloween",
+      "name": "ZX10 Halloween",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "torosini",
+      "name": "Toros Inicial",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "wrgtrnatal",
+      "name": "GTR Natalino",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrr1natal",
+      "name": "R1 Natalina",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "monzamontanha",
+      "name": "monzamontanha",
+      "trunk": 5,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredg63",
+      "name": "wrarmoredg63",
+      "trunk": 5,
+      "type": "vip"
+    },
+    {
+      "model": "nivou",
+      "name": "Nivou",
+      "trunk": 5,
+      "type": "vip"
+    },
+    {
+      "model": "comet7",
+      "name": "PFISTER 911",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "shinobi",
+      "name": "SHINOBI",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "adr8",
+      "name": "R8",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "cx75",
+      "name": "CX75",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "f40lbwk",
+      "name": "F40 Liberty Walk",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "fc15",
+      "name": "Ferrari California T 2015",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxgt2",
+      "name": "Fox GT2",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "moss",
+      "name": "Moss",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "minijcwgp20",
+      "name": "Mini JCW GP 2020",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "nivou",
+      "name": "Nivou",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "seal24",
+      "name": "Seal 2024",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "valkyrietp",
+      "name": "Valkyrie Track Pack",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "xc90r",
+      "name": "XC90 R",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "fbi ",
+      "name": "fbi ",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "cybciv",
+      "name": "cybciv",
+      "trunk": 350,
+      "type": "vip"
+    },
+    {
+      "model": "fbi",
+      "name": "fbi",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrswfed",
+      "name": "wrswfed",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "blimp",
+      "name": "blimp",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "pnanam",
+      "name": "pnanam",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "f620",
+      "name": "f620",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "windsor",
+      "name": "windsor",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "windsor2",
+      "name": "windsor2",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "fcr",
+      "name": "fcr",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "lectro",
+      "name": "lectro",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "hermes",
+      "name": "hermes",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "vigero2",
+      "name": "vigero2",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "vigero",
+      "name": "vigero",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "everon",
+      "name": "everon",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "toros",
+      "name": "toros",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "comet6",
+      "name": "comet6",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "comet5",
+      "name": "comet5",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "corsita",
+      "name": "corsita",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "euros",
+      "name": "euros",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "issi7",
+      "name": "issi7",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "khamelion",
+      "name": "khamelion",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "neon",
+      "name": "neon",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "neo",
+      "name": "neo",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "massacro",
+      "name": "massacro",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "lynx",
+      "name": "lynx",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "locust",
+      "name": "locust",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "ninef2",
+      "name": "ninef2",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "z190",
+      "name": "z190",
+      "trunk": 30,
+      "type": "carros"
+    },
+    {
+      "model": "3500sd",
+      "name": "BRAVADO RAM 3500 Super Duty",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "gt4dtm",
+      "name": "gt4dtm",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "gstnio1",
+      "name": "gstnio1",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "virtue",
+      "name": "Virtue",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WR21HILUXBM",
+      "name": "WR21HILUXBM",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRCB500XBM",
+      "name": "WRCB500XBM",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRSPRINTER22BM",
+      "name": "WRSPRINTER22BM",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRSW4BM",
+      "name": "WRSW4BM",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRXL750BM",
+      "name": "WRXL750BM",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRPOLMAVBM",
+      "name": "WRPOLMAVBM",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrtrxmecrace",
+      "name": "wrtrxmecrace",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrx750race",
+      "name": "wrx750race",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrtrxmecred",
+      "name": "wrtrxmecred",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrflatbedred",
+      "name": "wrflatbedred",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrxl750red",
+      "name": "wrxl750red",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "f850new",
+      "name": "UBERMACHT GS F850",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredconada",
+      "name": "Conada Blindado",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredurus",
+      "name": "Urus Blindada",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "xc90r",
+      "name": "VUCAR XC90r",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredct",
+      "name": "wrarmoredct",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrx15",
+      "name": "wrx15",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "2xlr35kuromi",
+      "name": "R35 Kuromi",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "2xlr35sakura",
+      "name": "R35 Sakura",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "corvetterotam",
+      "name": "corvetterotam",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrsxrrotam",
+      "name": "wrsxrrotam",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrtrailblazerrotam",
+      "name": "wrtrailblazerrotam",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrx7rotam",
+      "name": "wrx7rotam",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrhiaceil",
+      "name": "wrhiaceil",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "hiaceil",
+      "name": "hiaceil",
+      "trunk": 350,
+      "type": "vip"
+    },
+    {
+      "model": "insurgent2",
+      "name": "Insurgent 2",
+      "trunk": 200,
+      "type": "vip"
+    },
+    {
+      "model": "Avenger",
+      "name": "Avenger",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "pounder",
+      "name": "Pounder",
+      "trunk": 3000,
+      "type": "vip"
+    },
+    {
+      "model": "venatus",
+      "name": "PEGASSI Mansory Urus",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "speedo4",
+      "name": "Speedo 4",
+      "trunk": 1000,
+      "type": "vip"
+    },
+    {
+      "model": "devel22",
+      "name": "Devel22",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "lambose",
+      "name": "Lambose",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "amels200",
+      "name": "Iate Amels",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "havok",
+      "name": "Havok",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "stockade3",
+      "name": "Stockade",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "thruster",
+      "name": "Thruster",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "ahksv",
+      "name": "Ahksv",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodf40",
+      "name": "Rmodf40",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodjesko",
+      "name": "Jesko",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodgtr50",
+      "name": "ANNIS GTR 50",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodmi8lb",
+      "name": "UBERMACHT i8 conversível ",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "agerars",
+      "name": "Koenisegg Agera",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodf12tdf",
+      "name": "GROTTI 12 TDF",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "chironss",
+      "name": "TRUFFADE Chiron",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "350z",
+      "name": "ANNIS 350z",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodjeep",
+      "name": "CANIS Cherokee",
+      "trunk": 600,
+      "type": "vip"
+    },
+    {
+      "model": "audiq8",
+      "name": "OBEY Q8",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrhiace",
+      "name": "WR Hiace",
+      "trunk": 300,
+      "type": "vip"
+    },
+    {
+      "model": "911r",
+      "name": "Porshe 911r",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "panamera17turbo",
+      "name": "Panamera Turbo",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "amarok",
+      "name": "Amarok",
+      "trunk": 120,
+      "type": "vip"
+    },
+    {
+      "model": "fox720m",
+      "name": "Ahksv",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "s10",
+      "name": "DECLASSE S10",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "xreagstore",
+      "name": "DINKA XRE 300",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "survolt",
+      "name": "Citroen Survolt",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "18velar",
+      "name": "Range Rover Velar",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRvelar",
+      "name": "Range Rover Velar",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRvelar",
+      "name": "WR Corvette",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRsw4",
+      "name": "WRsw4",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "blacks",
+      "name": "Blacks",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredcayenne",
+      "name": "Cayenne GT",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredgle",
+      "name": "GLE63",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredjettagli",
+      "name": "Jetta GLI",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredm3g80c",
+      "name": "M3 G80C",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredm5",
+      "name": "M5 SL",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredmacan",
+      "name": "Macan",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredrs7",
+      "name": "RS7",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredvelar",
+      "name": "Velar",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredx7m60i",
+      "name": "X7 M60i",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredx6",
+      "name": "X6 F96",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "23teslapf",
+      "name": "Tesla",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRxreparamedico",
+      "name": "XRE SAMU",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRas350samu",
+      "name": "AS350 SAMU",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRsw4",
+      "name": "SW4 SAMU",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRsprinter22",
+      "name": "Sprinter SAMU",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrsprinterhp",
+      "name": "Sprinter SAMU",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrurushp",
+      "name": "Urus SAMU",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrcargo150",
+      "name": "IFOOD",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRsprinter22cbm",
+      "name": "WRsprinter22cbm",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRas350cbm",
+      "name": "WRas350cbm",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WR21hiluxcbm",
+      "name": "WR21hiluxcbm",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRsw4cbm",
+      "name": "WRsw4cbm",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "insurgentbb",
+      "name": "insurgentbb",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRtrashrio",
+      "name": "Caminhão de Lixo",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrtrxmec",
+      "name": "TRX",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrflatbed",
+      "name": "Flatbed",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRranger23ebc",
+      "name": "WRranger23ebc",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRranger23eb",
+      "name": "WRranger23eb",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WR5ton",
+      "name": "WR5ton",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "uh1exercito",
+      "name": "uh1exercito",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "haitun",
+      "name": "haitun",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrcivici",
+      "name": "Civic",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "caveiraopmerj",
+      "name": "Caveirão PMERJ",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRvelar",
+      "name": "Range Rover Velar",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRjeep",
+      "name": "CANIS Grand Cherokee",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRas350",
+      "name": "AS350",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRc7",
+      "name": "INVETERO C7",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRduster22",
+      "name": "Duster",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRl200",
+      "name": "L200",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRpajero",
+      "name": "Pajero",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRranger23",
+      "name": "Ranger 23",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRxt660",
+      "name": "XT 660",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRtrailblazer22",
+      "name": "Trailblazer",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRstorm",
+      "name": "Storm",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrlc500mgt",
+      "name": "500MGT",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrbmwg05mgt",
+      "name": "UBERMACHT 05MGT",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrtrxccr",
+      "name": "wrtrxccr",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrlc500ccr",
+      "name": "wrlc500ccr",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrbmwg05ccr",
+      "name": "wrbmwg05ccr",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrtrxmct",
+      "name": "wrtrxmct",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrm3g80mct",
+      "name": "wrm3g80mct",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrbmwg05mct",
+      "name": "wrbmwg05mct",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrlc500mct",
+      "name": "wrlc500mct",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrtiger1200mct",
+      "name": "wrtiger1200mct",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRas350prf",
+      "name": "AS350",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRbell407prf",
+      "name": "BELL 407",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRcruzeprf",
+      "name": "Cruze",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRl200prf",
+      "name": "L200",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRprfcamaro19",
+      "name": "Camaro",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRranger21",
+      "name": "Ranger 21",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "WRtrailblazerprf",
+      "name": "Trailblazer",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "r8spyder20",
+      "name": "OBEY R8 Spyder",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "moss",
+      "name": "BENEFACTOR Moss",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "m135i",
+      "name": "UBERMACHT M1",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "sonata18",
+      "name": "Sonata",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fordka",
+      "name": "VAPID Ka",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "palio",
+      "name": "Palio",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "mbc",
+      "name": "BENEFACTOR Concept",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "jeep20",
+      "name": "CANIS Trailcat 4x4",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "club96",
+      "name": "Club 96",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRspeedoems",
+      "name": "WRspeedoems",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "wrbugbomb",
+      "name": "wrbugbomb",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "WRurus",
+      "name": "WRurus",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "mercxclass",
+      "name": "BENEFACTOR Class X",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "submersible",
+      "name": "Submarino",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "civic2016",
+      "name": "Civic 2016",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "eletran17",
+      "name": "Elantra 17",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "z4bmw",
+      "name": "UBERMACHT Z4",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "punto",
+      "name": "Fiat Punto",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "veneno",
+      "name": "PEGASSI Veneno",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "urus",
+      "name": "PEGASSI Urus",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "tenere1200",
+      "name": "NAGASAKI SUPER TENERÊ 1200",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "pcx",
+      "name": "PCX 2018",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "pboxstergts",
+      "name": "PFISTER BOXTER 2013",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "gs2013",
+      "name": "R1200 GS 2013",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fxxkevo",
+      "name": "GROTTI FXXK Evo",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fc15",
+      "name": "GROTTI California",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "f850",
+      "name": "F850 GS",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "c63w205",
+      "name": "MERCEDES-AMG C63W205",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "evo9",
+      "name": "Lancer Evolution 9",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "ftoro",
+      "name": "VAPID Toro",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "gle53",
+      "name": "BENEFACTOR GLE53",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "Hilux2019",
+      "name": "KARIN Hilux 2019",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "huayrar",
+      "name": "Pagani Huayra",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "subwrx",
+      "name": "KARIN WRX",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "ds4",
+      "name": "DS4",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "amggtc",
+      "name": "AMG Conversivel",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrsw4civ",
+      "name": "wrsw4civ",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrcayenne",
+      "name": "wrcayenne",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "trhawk",
+      "name": "trhawk",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "seal24",
+      "name": "seal24",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rs7c821",
+      "name": "rs7c821",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "ix22",
+      "name": "ix22",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "gt3marlboro",
+      "name": "gt3marlboro",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "club96",
+      "name": "club96",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "23camss",
+      "name": "23camss",
+      "trunk": 25,
+      "type": "vip"
+    },
+    {
+      "model": "gls600",
+      "name": "gls600",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "minijcwgp20",
+      "name": "minijcwgp20",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "etrongt22",
+      "name": "etrongt22",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrxt660civ",
+      "name": "wrxt660civ",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "avisa",
+      "name": "Submarino Avisa",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "675ltsp ",
+      "name": "PROGEN 675 LT SP",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wladlc500",
+      "name": "EMPEROR LC 500",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rs520",
+      "name": "OBEY RS5 2020",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "amgone",
+      "name": "BENEFACTOR AMG ONE",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "sjdodge",
+      "name": "BRAVADO Charger Hellcat",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "bmwg07",
+      "name": "UBERMACHT X7 2021",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "c8z0623",
+      "name": "INVETERO C7 2023",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "dd911gtrsr",
+      "name": "PFISTER 911R GT2 DD",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "lpi8004 ",
+      "name": "PEGASSI Countach LPI800-4",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnflan",
+      "name": "MAIBATSU Lancer Evolution IX GSR",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "ff4wrx",
+      "name": "KARIN Impreza Fast and Furious",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fmk4",
+      "name": "KARIN Supra Fast and Furious",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfmk4",
+      "name": "KARIN Supra Fast and Furious 2",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfmits",
+      "name": "MAIBATSU Eclipse do Brian",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfrx7",
+      "name": "Mazda RX7 do Han",
+      "trunk": 0,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fmle7",
+      "name": "Lancer Evolution do Brian",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fgts",
+      "name": "MAIBATSU Spyder do Roman",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "quadri",
+      "name": "Quadriciclo",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "phantom",
+      "name": "Phantom",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "trash2",
+      "name": "Trash 2",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "tiptruck",
+      "name": "Tip Truck",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "boxville2",
+      "name": "Box ville",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "airbus",
+      "name": "Airbus",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "supervolito2",
+      "name": "Supervolito 2",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "frogger",
+      "name": "Frogger",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "frogger2",
+      "name": "Frogger2",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "volatus",
+      "name": "Volatus",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "luxor",
+      "name": "Luxor",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "luxor 2",
+      "name": "Luxor 2",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "swift2",
+      "name": "Swift2",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "havok",
+      "name": "Havok",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "coach",
+      "name": "Coach Civil",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "VRa3",
+      "name": "VRa3",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "VRq8",
+      "name": "VRq8",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "WRsubaru",
+      "name": "WRsubaru",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "WRclassxxc",
+      "name": "WRclassxxc",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "WRm5",
+      "name": "WRm5",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "VRraptor",
+      "name": "VRraptor",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "WRpolmav",
+      "name": "Helicóptero Policia",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "ambulance",
+      "name": "Ambulância",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "paramedicoheli",
+      "name": "Helicóptero Serviços",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "mercedesgt",
+      "name": "Mercedes-Benz GT63",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "nc750x",
+      "name": "NC750X",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "maverick",
+      "name": "Maverick",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fc15",
+      "name": "GROTTI California",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "ttrs",
+      "name": "OBEY TTrs",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "f250deboxe",
+      "name": "F250 Deboxe",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "africatAG",
+      "name": "africatAG",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "m8gte",
+      "name": "m8gte",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "polestar1",
+      "name": "polestar1",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRauditron",
+      "name": "WRauditron",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "WRq7",
+      "name": "WRq7",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "WRr8",
+      "name": "WRr8",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "WRtacoma22core",
+      "name": "WRtacoma22core",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "rmodlegosenna",
+      "name": "PROGEN Lego Senna ",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "foxc8",
+      "name": "INVETERO C8 ",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "m3e46",
+      "name": "UBERMACHT M3 E46",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodcharger69",
+      "name": "BRAVADO Charger",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "civic",
+      "name": "Civic",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodcamaro",
+      "name": "Camaro",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodmartin",
+      "name": "rmodmartin",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "jetta2017",
+      "name": "Jetta 2017",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodessenza",
+      "name": "PEGASSI Essenza",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "adr8",
+      "name": "OBEY R8 2021",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "dukes2",
+      "name": "Dukes Blindado",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "dm1200",
+      "name": "Ducati",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "nissanskyliner34",
+      "name": "Skyline R34",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "r1",
+      "name": "NAGASAKI R1",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "s1000rr",
+      "name": "UBERMACHT S1000RR",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "1000remap",
+      "name": "1000 REMAP",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "45hremap",
+      "name": "45H REMAP",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "pcj",
+      "name": "KTM",
+      "trunk": 5,
+      "type": "vip"
+    },
+    {
+      "model": "paredaohulk",
+      "name": "Paredão Hulk",
+      "trunk": 0,
+      "type": "vip"
+    },
+    {
+      "model": "audirs7",
+      "name": "OBEY RS7",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "718b",
+      "name": "PFISTER 718B",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "ferrariitalia",
+      "name": "GROTTI Itália",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "fordmustang",
+      "name": "VAPID Mustang",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "lancerevolutionx",
+      "name": "Lancer Evolution X",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "teslaprior",
+      "name": "COIL Prior",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "bmws",
+      "name": "UBERMACHT S",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "panigale",
+      "name": "Ducati",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "gsxr",
+      "name": "SHITZU GSXR",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "hayabusa",
+      "name": "Hayabusa",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "r6",
+      "name": "NAGASAKI R6",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "xj6",
+      "name": "XJ6",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "xt660vip",
+      "name": "XT 660",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "z1000",
+      "name": "Z1000",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "zx6r",
+      "name": "ZX6R",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "zx10",
+      "name": "ZX10",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodbacalar",
+      "name": "Bacalar",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodbentleygt",
+      "name": "ENUS GT",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodbmwm8",
+      "name": "UBERMACHT M8",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "africat",
+      "name": "Africat",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "c7",
+      "name": "INVETERO Conversivel 7",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "cx75",
+      "name": "OCELOT C-X75",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "divo",
+      "name": "TRUFFADE Divo",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "evoque",
+      "name": "Range Rover Evoque",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "f8t",
+      "name": "GROTTI Pista 8",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "fz07",
+      "name": "NAGASAKI FZ-07",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "nh2r",
+      "name": "NAGASAKI Ninja H2R",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "pamodelra17turbo",
+      "name": "PFISTER Pamodelra 17 TURBO",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "r1200",
+      "name": "UBERMACHT R1250",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "terzo",
+      "name": "PEGASSI Terzo",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "hornet",
+      "name": "Hornet",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "civictyper",
+      "name": "CivicType R",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "18performante",
+      "name": "PEGASSI Huracan NOVA",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "bmwi8",
+      "name": "UBERMACHT I8",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "silvias15",
+      "name": "ANNIS Silvia S15",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "silvia",
+      "name": "Silvia GK",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "24humevof",
+      "name": "Hummer EV 2024",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "d99",
+      "name": "PEGASSI 1199 Panigale",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "elva",
+      "name": "Elva",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxct",
+      "name": "COIL CyberTruck",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxevo",
+      "name": "PEGASSI Evo",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxgt2",
+      "name": "PROGEN GT2",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxsenna",
+      "name": "PROGEN Senna",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "gemera",
+      "name": "Koenigsegg",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "giuliagta",
+      "name": "Giulia",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "golf7gti",
+      "name": "GOLF GTI",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodgt63",
+      "name": "BENEFACTOR GT63",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "lwgtr",
+      "name": "LWGTR",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "huracangt3evo",
+      "name": "PEGASSI Huracan GT3 EVO",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "l200",
+      "name": "L200",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "bmwm4gts",
+      "name": "UBERMACHT M4GTS",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "mansgt",
+      "name": "MANSGT",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "monza",
+      "name": "Monza",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "paredao",
+      "name": "Paredão",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "pistaspider19",
+      "name": "GROTTI Spider",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "ram2500",
+      "name": "Caminhonete RAM2500",
+      "trunk": 130,
+      "type": "vip"
+    },
+    {
+      "model": "fd",
+      "name": "RX7",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rs7c821",
+      "name": "rs7c821",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "mt07",
+      "name": "mt07",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "a80",
+      "name": "KARIN Supra",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rs6wb",
+      "name": "RS6WB",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "valkyrietp",
+      "name": "Valkyrie TP",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rmodx6",
+      "name": "UBERMACHT X6",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "918S",
+      "name": "PFISTER Spyder",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "macanturbo",
+      "name": "Porshe Macan",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "taycan21",
+      "name": "Porshe Taycan",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRtiger900",
+      "name": "Triumph Tiger 900",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodsianr",
+      "name": "PEGASSI Sian",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "chevette",
+      "name": "Chevette",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "saveiro",
+      "name": "Saveiro",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "terbyte",
+      "name": "Terbyte",
+      "trunk": 2000,
+      "type": "vip"
+    },
+    {
+      "model": "WRtrailblazercore",
+      "name": "Blazer Core",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "WRlwgtr",
+      "name": "WR GTR",
+      "trunk": 30,
+      "type": "service"
+    },
+    {
+      "model": "wrbmwi8exc",
+      "name": "Storm",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fgtr34",
+      "name": "GT-R 34",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fgts",
+      "name": "Eclipse GTS",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fmk4",
+      "name": "Supra MK4",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fmle7",
+      "name": "Lancer Evo VII",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2f2frx7",
+      "name": "RX7 FD",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "2f2fs2000",
+      "name": "S2000",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "350zdk",
+      "name": "350Z DK",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "350zm",
+      "name": "350Z Morimoto",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "acura2f2f",
+      "name": "NSX NA1",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "ff4wrx",
+      "name": "Impreza WRX",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnf4r34",
+      "name": "GT-R 34 FNF4",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfjetta",
+      "name": "Jetta 3",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnflan",
+      "name": "Lancer Evo VIII",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfmits",
+      "name": "Eclipse GS-T",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfmk4",
+      "name": "Supra MK4 FNF",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfrx7",
+      "name": "RX7 Veilside",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "fnfrx7dom",
+      "name": "RX7 Toretto",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "hcej1",
+      "name": "Civic EJ1",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "silvias15varietta ",
+      "name": "S15 Monalisa",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "WRs10",
+      "name": "S10 2021",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "minittrs",
+      "name": "OBEY TRS KID",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "wrbmwx6civ",
+      "name": "wrbmwx6civ",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "furia",
+      "name": "Furia",
+      "trunk": 50,
+      "type": "imports"
+    },
+    {
+      "model": "italirsx",
+      "name": "ItaliRSX",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "krieger",
+      "name": "Krieger",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "emerus",
+      "name": "Emerus",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "zorrusso",
+      "name": "Zorrusso",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "thrax",
+      "name": "Thrax",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "vstr",
+      "name": "Vstr",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "caracara2",
+      "name": "Caracara2",
+      "trunk": 90,
+      "type": "suvs"
+    },
+    {
+      "model": "verus",
+      "name": "Verus",
+      "trunk": 50,
+      "type": "motos"
+    },
+    {
+      "model": "rebla",
+      "name": "Rebla",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "paragon",
+      "name": "Paragon",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "jugular",
+      "name": "Jugular",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "komoda",
+      "name": "Komoda",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "drafter",
+      "name": "Drafter",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "pounder2",
+      "name": "pounder2",
+      "trunk": 5000,
+      "type": "vip"
+    },
+    {
+      "model": "brickade",
+      "name": "Brickade",
+      "trunk": 2000,
+      "type": "vip"
+    },
+    {
+      "model": "club",
+      "name": "Club",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "kanjo",
+      "name": "Kanjo",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "issi5",
+      "name": "Issi 5",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "issi4",
+      "name": "Issi 4",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "panto",
+      "name": "Panto",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "glendale2",
+      "name": "Glendale 2",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "regina",
+      "name": "Regina",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "romero",
+      "name": "Funerário",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "stretch",
+      "name": "Limousine",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "pbus2",
+      "name": "Bus Fest",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "imorgon",
+      "name": "Imorgon",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "issi7",
+      "name": "Issi 7",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "locust",
+      "name": "Ocelot",
+      "trunk": 45,
+      "type": "outros"
+    },
+    {
+      "model": "neo",
+      "name": "Neo",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "penumbra2",
+      "name": "Penumbra 2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "revolter",
+      "name": "Revolter",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "schafter2",
+      "name": "Schafter 2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "blista",
+      "name": "Blista",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "sultan2",
+      "name": "Sultan 2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "dynasty",
+      "name": "Dynasty",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "manana2",
+      "name": "Manana 2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "peyote3",
+      "name": "Peyote 3",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "retinue2",
+      "name": "Retinue 2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "savestra",
+      "name": "Savestra",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "viseris",
+      "name": "Viseris",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "s80",
+      "name": "S80",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "tigon",
+      "name": "Tigon",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "brioso",
+      "name": "Brioso",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "dilettante",
+      "name": "Dilettante",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "primo2",
+      "name": "Primo2",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "chino",
+      "name": "Chino",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "chino2",
+      "name": "Chino2",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "coquette3",
+      "name": "Coquette3",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "vectre",
+      "name": "vectre",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "dominator",
+      "name": "Dominator",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "dominator2",
+      "name": "Dominator2",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "dukes",
+      "name": "Dukes",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "faction",
+      "name": "Faction",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "faction2",
+      "name": "Faction2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "faction3",
+      "name": "Faction3",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "gauntlet4",
+      "name": "Gauntlet 4",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "gauntlet3",
+      "name": "Gauntlet 3",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "gauntlet2",
+      "name": "Gauntlet2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "hermes",
+      "name": "Hermes",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "hotknife",
+      "name": "Hotknife",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "moonbeam",
+      "name": "Moonbeam",
+      "trunk": 80,
+      "type": "outros"
+    },
+    {
+      "model": "moonbeam2",
+      "name": "Moonbeam2",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "nightshade",
+      "name": "Nightshade",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "picador",
+      "name": "Picador",
+      "trunk": 90,
+      "type": "outros"
+    },
+    {
+      "model": "ruiner",
+      "name": "Ruiner",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "sabregt",
+      "name": "Sabregt",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "sabregt2",
+      "name": "Sabregt2",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "gburrito",
+      "name": "GBurrito",
+      "trunk": 100,
+      "type": "service"
+    },
+    {
+      "model": "tokyoamarokjornal",
+      "name": "Amarok Jornal",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "slamvan",
+      "name": "Slamvan",
+      "trunk": 80,
+      "type": "outros"
+    },
+    {
+      "model": "slamvan2",
+      "name": "Slamvan2",
+      "trunk": 50,
+      "type": "service"
+    },
+    {
+      "model": "slamvan3",
+      "name": "Slamvan3",
+      "trunk": 80,
+      "type": "outros"
+    },
+    {
+      "model": "stalion",
+      "name": "Stalion",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "stalion2",
+      "name": "Stalion2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "tampa",
+      "name": "Tampa",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "vigero",
+      "name": "Vigero",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "virgo",
+      "name": "Virgo",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "virgo2",
+      "name": "Virgo2",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "virgo3",
+      "name": "Virgo3",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "voodoo",
+      "name": "Voodoo",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "voodoo2",
+      "name": "Voodoo2",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "yosemite",
+      "name": "Yosemite",
+      "trunk": 130,
+      "type": "outros"
+    },
+    {
+      "model": "yosemite3",
+      "name": "Yosemite 3",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "bfinjection",
+      "name": "Bfinjection",
+      "trunk": 20,
+      "type": "suvs"
+    },
+    {
+      "model": "bifta",
+      "name": "Bifta",
+      "trunk": 20,
+      "type": "suvs"
+    },
+    {
+      "model": "bodhi2",
+      "name": "Bodhi2",
+      "trunk": 90,
+      "type": "suvs"
+    },
+    {
+      "model": "astron",
+      "name": "astron",
+      "trunk": 90,
+      "type": "suvs"
+    },
+    {
+      "model": "brawler",
+      "name": "Brawler",
+      "trunk": 100,
+      "type": "outros"
+    },
+    {
+      "model": "trophytruck",
+      "name": "Trophytruck",
+      "trunk": 10,
+      "type": "suvs"
+    },
+    {
+      "model": "trophytruck2",
+      "name": "Trophytruck2",
+      "trunk": 15,
+      "type": "suvs"
+    },
+    {
+      "model": "dubsta3",
+      "name": "Dubsta3",
+      "trunk": 90,
+      "type": "suvs"
+    },
+    {
+      "model": "mesa3",
+      "name": "Mesa3",
+      "trunk": 60,
+      "type": "suvs"
+    },
+    {
+      "model": "rancherxl",
+      "name": "Rancherxl",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "rebel",
+      "name": "Rebel",
+      "trunk": 250,
+      "type": "service"
+    },
+    {
+      "model": "rebel2",
+      "name": "Rebel2",
+      "trunk": 200,
+      "type": "suvs"
+    },
+    {
+      "model": "riata",
+      "name": "Riata",
+      "trunk": 250,
+      "type": "suvs"
+    },
+    {
+      "model": "dloader",
+      "name": "Dloader",
+      "trunk": 80,
+      "type": "outros"
+    },
+    {
+      "model": "ratloader",
+      "name": "Caminhão",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "sandking",
+      "name": "Sandking",
+      "trunk": 250,
+      "type": "suvs"
+    },
+    {
+      "model": "sandking2",
+      "name": "Sandking2",
+      "trunk": 250,
+      "type": "outros"
+    },
+    {
+      "model": "baller",
+      "name": "Baller",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "baller2",
+      "name": "Baller2",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "baller3",
+      "name": "Baller3",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "baller4",
+      "name": "Baller4",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "baller5",
+      "name": "Baller5",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "oppressor2",
+      "name": "oppressor2",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "baller6",
+      "name": "Baller6",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "bjxl",
+      "name": "Bjxl",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "cavalcade",
+      "name": "Cavalcade",
+      "trunk": 60,
+      "type": "suvs"
+    },
+    {
+      "model": "cavalcade2",
+      "name": "Cavalcade2",
+      "trunk": 60,
+      "type": "suvs"
+    },
+    {
+      "model": "contender",
+      "name": "Contender",
+      "trunk": 80,
+      "type": "suvs"
+    },
+    {
+      "model": "dubsta",
+      "name": "Dubsta",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "dubsta2",
+      "name": "Dubsta2",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "fq2",
+      "name": "Fq2",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "granger",
+      "name": "Granger",
+      "trunk": 100,
+      "type": "suvs"
+    },
+    {
+      "model": "gresley",
+      "name": "Gresley",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "habanero",
+      "name": "Habanero",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "seminole",
+      "name": "Seminole",
+      "trunk": 60,
+      "type": "suvs"
+    },
+    {
+      "model": "seminole2",
+      "name": "Seminole 2",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "serrano",
+      "name": "Serrano",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "xls",
+      "name": "Xls",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "xls2",
+      "name": "Xls2",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "asea",
+      "name": "Asea",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "asterope",
+      "name": "Asterope",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "cog55",
+      "name": "Cog55",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "cog552",
+      "name": "Cog552",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "cognoscenti",
+      "name": "Cognoscenti",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "cognoscenti2",
+      "name": "Cognoscenti2",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "stanier",
+      "name": "Stanier",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "stratum",
+      "name": "Stratum",
+      "trunk": 70,
+      "type": "sedans"
+    },
+    {
+      "model": "importsd",
+      "name": "importsd",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "surge",
+      "name": "Surge",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "tailgater",
+      "name": "Tailgater",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "warrener",
+      "name": "Warrener",
+      "trunk": 40,
+      "type": "sedans"
+    },
+    {
+      "model": "washington",
+      "name": "Washington",
+      "trunk": 60,
+      "type": "sedans"
+    },
+    {
+      "model": "alpha",
+      "name": "Alpha",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "banshee",
+      "name": "Banshee",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "bestiagts",
+      "name": "Bestiagts",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "blista2",
+      "name": "Blista2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "blista3",
+      "name": "Blista3",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "buffalo",
+      "name": "Buffalo",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "buffalo2",
+      "name": "Buffalo2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "buffalo3",
+      "name": "Buffalo3",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "carbonizzare",
+      "name": "Carbonizzare",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "comet2",
+      "name": "Comet2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "comet3",
+      "name": "Comet3",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "comet5",
+      "name": "Comet5",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "coquette",
+      "name": "Coquette",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "coquette4",
+      "name": "Coquette 4",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "growler",
+      "name": "growler",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "jester4",
+      "name": "jester4",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "turismo3",
+      "name": "turismo3",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "vivanite",
+      "name": "vivanite",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "cypher",
+      "name": "cypher",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "elegy",
+      "name": "Elegy",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "elegy2",
+      "name": "Elegy2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "feltzer2",
+      "name": "Feltzer2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "furoregt",
+      "name": "Furoregt",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "fusilade",
+      "name": "Fusilade",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "futo",
+      "name": "Futo",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "jester",
+      "name": "Jester",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "khamelion",
+      "name": "Khamelion",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "kuruma",
+      "name": "Kuruma",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "massacro",
+      "name": "Massacro",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "massacro2",
+      "name": "Massacro2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "ninef",
+      "name": "Ninef",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "ninef2",
+      "name": "Ninef2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "omnis",
+      "name": "Omnis",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "pariah",
+      "name": "Pariah",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "penumbra",
+      "name": "Penumbra",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "raiden",
+      "name": "Raiden",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "rapidgt",
+      "name": "Rapidgt",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "rapidgt2",
+      "name": "Rapidgt2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "ruston",
+      "name": "Ruston",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "schafter3",
+      "name": "Schafter3",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "schafter4",
+      "name": "Schafter4",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "schafter5",
+      "name": "Schafter5",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "schwarzer",
+      "name": "Schwarzer",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "sentinel3",
+      "name": "Sentinel3",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "seven70",
+      "name": "Seven70",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "specter",
+      "name": "Specter",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "specter2",
+      "name": "Specter2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "streiter",
+      "name": "Streiter",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "sultan",
+      "name": "Sultan",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "surano",
+      "name": "Surano",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "tampa2",
+      "name": "Tampa2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "tropos",
+      "name": "Tropos",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "verlierer2",
+      "name": "Verlierer2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "btype",
+      "name": "Btype",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "btype2",
+      "name": "Btype2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "btype3",
+      "name": "Btype3",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "casco",
+      "name": "Casco",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "cheetah",
+      "name": "Cheetah",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "coquette2",
+      "name": "Coquette2",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "feltzer3",
+      "name": "Feltzer3",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "gt500",
+      "name": "GT500",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "infernus2",
+      "name": "Infernus2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "jb700",
+      "name": "Jb700",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "mamba",
+      "name": "Mamba",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "manana",
+      "name": "Manana",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "monroe",
+      "name": "Monroe",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "peyote",
+      "name": "Peyote",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "pigalle",
+      "name": "Pigalle",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "rapidgt3",
+      "name": "Rapidgt3",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "retinue",
+      "name": "Retinue",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "stinger",
+      "name": "Stinger",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "stingergt",
+      "name": "Stingergt",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "torero",
+      "name": "Torero",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "tornado",
+      "name": "Tornado",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "tornado2",
+      "name": "Tornado2",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "tornado5",
+      "name": "Tornado5",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "tornado6",
+      "name": "Tornado6",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "turismo2",
+      "name": "Turismo2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "ztype",
+      "name": "Ztype",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "adder",
+      "name": "Adder",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "autarch",
+      "name": "Autarch",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "banshee2",
+      "name": "Banshee2",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "bullet",
+      "name": "Bullet",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "cheetah2",
+      "name": "Cheetah2",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "entityxf",
+      "name": "Entityxf",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "fmj",
+      "name": "Fmj",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "gp1",
+      "name": "Gp1",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "infernus",
+      "name": "Infernus",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "nero",
+      "name": "Nero",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "nero2",
+      "name": "Nero2",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "osiris",
+      "name": "Osiris",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "penetrator",
+      "name": "Penetrator",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "pfister811",
+      "name": "Pfister811",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "reaper",
+      "name": "Reaper",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "sc1",
+      "name": "Sc1",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "sultanrs",
+      "name": "Sultan RS",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "t20",
+      "name": "T20",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "tempesta",
+      "name": "Tempesta",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "turismor",
+      "name": "Turismor",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "tyrus",
+      "name": "Tyrus",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "vacca",
+      "name": "Vacca",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "visione",
+      "name": "Visione",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "voltic",
+      "name": "Voltic",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "zentorno",
+      "name": "Zentorno",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "sadler",
+      "name": "Sadler",
+      "trunk": 70,
+      "type": "utility"
+    },
+    {
+      "model": "bison",
+      "name": "Bison",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "bison2",
+      "name": "Bison2",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "bobcatxl",
+      "name": "Bobcatxl",
+      "trunk": 100,
+      "type": "outros"
+    },
+    {
+      "model": "burrito",
+      "name": "Burrito",
+      "trunk": 200,
+      "type": "caminhoes"
+    },
+    {
+      "model": "burrito2",
+      "name": "Burrito2",
+      "trunk": 300,
+      "type": "caminhoes"
+    },
+    {
+      "model": "burrito3",
+      "name": "Burrito3",
+      "trunk": 400,
+      "type": "caminhoes"
+    },
+    {
+      "model": "burrito4",
+      "name": "Burrito4",
+      "trunk": 500,
+      "type": "caminhoes"
+    },
+    {
+      "model": "rvburrito",
+      "name": "rvburrito",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "minivan",
+      "name": "Minivan",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "minivan2",
+      "name": "Minivan2",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "paradise",
+      "name": "Paradise",
+      "trunk": 120,
+      "type": "outros"
+    },
+    {
+      "model": "pony",
+      "name": "Pony",
+      "trunk": 120,
+      "type": "outros"
+    },
+    {
+      "model": "pony2",
+      "name": "Pony2",
+      "trunk": 120,
+      "type": "outros"
+    },
+    {
+      "model": "rumpo",
+      "name": "Rumpo",
+      "trunk": 120,
+      "type": "outros"
+    },
+    {
+      "model": "rumpo2",
+      "name": "Rumpo2",
+      "trunk": 120,
+      "type": "outros"
+    },
+    {
+      "model": "rumpo3",
+      "name": "Rumpo3",
+      "trunk": 120,
+      "type": "vip"
+    },
+    {
+      "model": "speedo",
+      "name": "Speedo",
+      "trunk": 120,
+      "type": "service"
+    },
+    {
+      "model": "surfer",
+      "name": "Surfer",
+      "trunk": 120,
+      "type": "outros"
+    },
+    {
+      "model": "youga",
+      "name": "Youga",
+      "trunk": 250,
+      "type": "outros"
+    },
+    {
+      "model": "youga2",
+      "name": "Youga2",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "youga3",
+      "name": "Youga3",
+      "trunk": 250,
+      "type": "service"
+    },
+    {
+      "model": "tractor2",
+      "name": "Tractor2",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "huntley",
+      "name": "Huntley",
+      "trunk": 60,
+      "type": "suvs"
+    },
+    {
+      "model": "landstalker",
+      "name": "Landstalker",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "landstalker2",
+      "name": "Landstalker 2",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "cavalcade3",
+      "name": "cavalcade3",
+      "trunk": 30,
+      "type": "suvs"
+    },
+    {
+      "model": "mesa",
+      "name": "Mesa",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "patriot",
+      "name": "Patriot",
+      "trunk": 70,
+      "type": "suvs"
+    },
+    {
+      "model": "radi",
+      "name": "Radi",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "rocoto",
+      "name": "Rocoto",
+      "trunk": 60,
+      "type": "suvs"
+    },
+    {
+      "model": "tyrant",
+      "name": "Tyrant",
+      "trunk": 30,
+      "type": "imports"
+    },
+    {
+      "model": "entity2",
+      "name": "Entity2",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "cheburek",
+      "name": "Cheburek",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "hotring",
+      "name": "Hotring",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "jester3",
+      "name": "Jester3",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "flashgt",
+      "name": "Flashgt",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "ellie",
+      "name": "Ellie",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "michelli",
+      "name": "Michelli",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "fagaloa",
+      "name": "Fagaloa",
+      "trunk": 80,
+      "type": "outros"
+    },
+    {
+      "model": "dominator3",
+      "name": "Dominator3",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "issi3",
+      "name": "Issi3",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "taipan",
+      "name": "Taipan",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "gb200",
+      "name": "Gb200",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "guardian",
+      "name": "Guardian",
+      "trunk": 150,
+      "type": "industrial"
+    },
+    {
+      "model": "kamacho",
+      "name": "Kamacho",
+      "trunk": 90,
+      "type": "suvs"
+    },
+    {
+      "model": "neon",
+      "name": "Neon",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "cyclone",
+      "name": "Cyclone",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "italigtb",
+      "name": "Italigtb",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "italigtb2",
+      "name": "Italigtb2",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "vagner",
+      "name": "Vagner",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "xa21",
+      "name": "Xa21",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "tezeract",
+      "name": "Tezeract",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "prototipo",
+      "name": "Prototipo",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "patriot2",
+      "name": "Patriot2",
+      "trunk": 60,
+      "type": "suvs"
+    },
+    {
+      "model": "stafford",
+      "name": "Stafford",
+      "trunk": 40,
+      "type": "sedans"
+    },
+    {
+      "model": "swinger",
+      "name": "Swinger",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "clique",
+      "name": "Clique",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "deveste",
+      "name": "Deveste",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "deviant",
+      "name": "Deviant",
+      "trunk": 50,
+      "type": "outros"
+    },
+    {
+      "model": "impaler",
+      "name": "Impaler",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "italigto",
+      "name": "Italigto",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "schlagen",
+      "name": "Schlagen",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "toros",
+      "name": "Toros",
+      "trunk": 50,
+      "type": "suvs"
+    },
+    {
+      "model": "tulip",
+      "name": "Tulip",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "vamos",
+      "name": "Vamos",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "fugitive",
+      "name": "Fugitive",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "le7b",
+      "name": "Le7b",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "lurcher",
+      "name": "Lurcher",
+      "trunk": 60,
+      "type": "outros"
+    },
+    {
+      "model": "lynx",
+      "name": "Lynx",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "raptor",
+      "name": "Raptor",
+      "trunk": 20,
+      "type": "outros"
+    },
+    {
+      "model": "sheava",
+      "name": "Sheava",
+      "trunk": 20,
+      "type": "imports"
+    },
+    {
+      "model": "z190",
+      "name": "Z190",
+      "trunk": 40,
+      "type": "outros"
+    },
+    {
+      "model": "terminus",
+      "name": "terminus",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "akuma",
+      "name": "Akuma",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "avarus",
+      "name": "Avarus",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "bagger",
+      "name": "Bagger",
+      "trunk": 40,
+      "type": "motos"
+    },
+    {
+      "model": "bati",
+      "name": "Bati",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "bati2",
+      "name": "Bati2",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "bf400",
+      "name": "Bf400",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "carbonrs",
+      "name": "Carbonrs",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "chimera",
+      "name": "Chimera",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "cliffhanger",
+      "name": "Cliffhanger",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "daemon",
+      "name": "Daemon",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "daemon2",
+      "name": "Daemon2",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "defiler",
+      "name": "Defiler",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "diablous",
+      "name": "Diablous",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "diablous2",
+      "name": "Diablous2",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "double",
+      "name": "Double",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "enduro",
+      "name": "Enduro",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "esskey",
+      "name": "Esskey",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "faggio",
+      "name": "Faggio",
+      "trunk": 30,
+      "type": "motos"
+    },
+    {
+      "model": "faggio2",
+      "name": "Faggio2",
+      "trunk": 30,
+      "type": "motos"
+    },
+    {
+      "model": "faggio3",
+      "name": "Faggio3",
+      "trunk": 30,
+      "type": "motos"
+    },
+    {
+      "model": "fcr",
+      "name": "Fcr",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "fcr2",
+      "name": "Fcr2",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "gargoyle",
+      "name": "Gargoyle",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "hakuchou",
+      "name": "Hakuchou",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "hakuchou2",
+      "name": "Hakuchou2",
+      "trunk": 30,
+      "type": "motos"
+    },
+    {
+      "model": "hexer",
+      "name": "Hexer",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "innovation",
+      "name": "Innovation",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "lectro",
+      "name": "Lectro",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "manchez",
+      "name": "Manchez",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "nemesis",
+      "name": "Nemesis",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "nightblade",
+      "name": "Nightblade",
+      "trunk": 15,
+      "type": "outros"
+    },
+    {
+      "model": "pcj",
+      "name": "Pcj",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "ruffian",
+      "name": "Ruffian",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "sanchez",
+      "name": "Sanchez",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "sanchez2",
+      "name": "Sanchez2",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "sanctus",
+      "name": "Sanctus",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "sovereign",
+      "name": "Sovereign",
+      "trunk": 50,
+      "type": "motos"
+    },
+    {
+      "model": "thrust",
+      "name": "Thrust",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "vader",
+      "name": "Vader",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "vindicator",
+      "name": "Vindicator",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "vortex",
+      "name": "Vortex",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "wolfsbane",
+      "name": "Wolfsbane",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "zombiea",
+      "name": "Zombiea",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "zombieb",
+      "name": "Zombieb",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "blazer",
+      "name": "Blazer",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "blazer4",
+      "name": "Blazer4",
+      "trunk": 15,
+      "type": "motos"
+    },
+    {
+      "model": "shotaro",
+      "name": "Shotaro",
+      "trunk": 30,
+      "type": "motos"
+    },
+    {
+      "model": "ratbike",
+      "name": "Ratbike",
+      "trunk": 30,
+      "type": "motos"
+    },
+    {
+      "model": "policiaheli",
+      "name": "Policia Helicóptero",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "fbi2",
+      "name": "Granger SOG",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "policeb",
+      "name": "Harley Davidson",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "paramedicoambu",
+      "name": "Ambulância",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "paramedicocharger2014",
+      "name": "BRAVADO Charger 2014",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "pbus",
+      "name": "Ônibus da Penitenciária",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "mule4",
+      "name": "Mule 4",
+      "trunk": 3000,
+      "type": "vip"
+    },
+    {
+      "model": "mule5",
+      "name": "Mule 5",
+      "trunk": 2000,
+      "type": "vip"
+    },
+    {
+      "model": "rallytruck",
+      "name": "RallyTruck",
+      "trunk": 3000,
+      "type": "vip"
+    },
+    {
+      "model": "mulevip",
+      "name": "mulevip",
+      "trunk": 1000,
+      "type": "vip"
+    },
+    {
+      "model": "bus",
+      "name": "Ônibus",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "flatbed",
+      "name": "Reboque",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "towtruck",
+      "name": "Towtruck",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "towtruck2",
+      "name": "Towtruck2",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "ratloader",
+      "name": "Caminhão",
+      "trunk": 80,
+      "type": "service"
+    },
+    {
+      "model": "ratloader2",
+      "name": "Ratloader2",
+      "trunk": 70,
+      "type": "outros"
+    },
+    {
+      "model": "rubble",
+      "name": "Caminhão",
+      "trunk": 100,
+      "type": "service"
+    },
+    {
+      "model": "taxi",
+      "name": "Taxi",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "boxville4",
+      "name": "Caminhão",
+      "trunk": 70,
+      "type": "service"
+    },
+    {
+      "model": "trash2",
+      "name": "Caminhão",
+      "trunk": 100,
+      "type": "service"
+    },
+    {
+      "model": "tiptruck",
+      "name": "Tiptruck",
+      "trunk": 100,
+      "type": "service"
+    },
+    {
+      "model": "scorcher",
+      "name": "Scorcher",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "tribike",
+      "name": "Tribike",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "tribike2",
+      "name": "Tribike2",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "tribike3",
+      "name": "Tribike3",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "fixter",
+      "name": "Fixter",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "cruiser",
+      "name": "Cruiser",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "bmx",
+      "name": "Bmx",
+      "trunk": 100,
+      "type": "service"
+    },
+    {
+      "model": "dinghy",
+      "name": "Dinghy",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "jetmax",
+      "name": "Jetmax",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "marquis",
+      "name": "Marquis",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "seashark3",
+      "name": "Seashark3",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "speeder",
+      "name": "Speeder",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "speeder2",
+      "name": "Speeder2",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "squalo",
+      "name": "Squalo",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "suntrap",
+      "name": "Suntrap",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "toro",
+      "name": "Toro",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "toro2",
+      "name": "Toro2",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "tropic",
+      "name": "Tropic",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "tropic2",
+      "name": "Tropic2",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "yacht2",
+      "name": "yacht2",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "phantom",
+      "name": "Phantom",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "packer",
+      "name": "Packer",
+      "trunk": 100,
+      "type": "service"
+    },
+    {
+      "model": "importsvolito",
+      "name": "importsvolito",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "importsvolito2",
+      "name": "importsvolito2",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "seasparrow",
+      "name": "Paramédico Helicóptero Água",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "cuban800",
+      "name": "Cuban800",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "mammatus",
+      "name": "Mammatus",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "vestra",
+      "name": "Vestra",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "velum2",
+      "name": "Velum2",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "velum",
+      "name": "velum",
+      "trunk": 100,
+      "type": "aeronaves"
+    },
+    {
+      "model": "vestra",
+      "name": "vestra",
+      "trunk": 100,
+      "type": "aeronaves"
+    },
+    {
+      "model": "nimbus",
+      "name": "vestra",
+      "trunk": 100,
+      "type": "aeronaves"
+    },
+    {
+      "model": "buzzard2",
+      "name": "Buzzard2",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "maverick",
+      "name": "Maverick",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "tanker2",
+      "name": "Gas",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "armytanker",
+      "name": "Diesel",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "tvtrailer",
+      "name": "Show",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "trailerlogs",
+      "name": "Woods",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "tr4",
+      "name": "Cars",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "nissangtr",
+      "name": "ANNIS GTR",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "weevil",
+      "name": "Fusca",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "nissan370z",
+      "name": "ANNIS 370Z",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "dodgechargersrt",
+      "name": "BRAVADO Charger SRT",
+      "trunk": 50,
+      "type": "import"
+    },
+    {
+      "model": "14r8",
+      "name": "OBEY R8 2014",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "bmwm3f80",
+      "name": "UBERMACHT M3 F80",
+      "trunk": 50,
+      "type": "import"
+    },
+    {
+      "model": "nissangtrnismo",
+      "name": "ANNIS GTR Nismo",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "seasparrow2",
+      "name": "Sea Sparrow2",
+      "trunk": 500,
+      "type": "vip"
+    },
+    {
+      "model": "mule",
+      "name": "Mule",
+      "trunk": 1000,
+      "type": "vip"
+    },
+    {
+      "model": "mule2",
+      "name": "Mule 2",
+      "trunk": 2000,
+      "type": "vip"
+    },
+    {
+      "model": "mule3",
+      "name": "Mule 3",
+      "trunk": 3000,
+      "type": "vip"
+    },
+    {
+      "model": "mercedesa45",
+      "name": "BENEFACTOR A45",
+      "trunk": 40,
+      "type": "import"
+    },
+    {
+      "model": "rcbandito",
+      "name": "Mini carro",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "focusrs",
+      "name": "Focus RS",
+      "trunk": 40,
+      "type": "import"
+    },
+    {
+      "model": "lancerevolution9",
+      "name": "Lancer Evolution 9",
+      "trunk": 50,
+      "type": "import"
+    },
+    {
+      "model": "ninjah2",
+      "name": "Ninja H2",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "trr",
+      "name": "KTM TRR",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "p1",
+      "name": "PROGEN P1",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "i8",
+      "name": "UBERMACHT i8",
+      "trunk": 35,
+      "type": "vip"
+    },
+    {
+      "model": "bme6tun",
+      "name": "UBERMACHT M5",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "aperta",
+      "name": "La Ferrari",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "devel22",
+      "name": "devel22",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "lambose",
+      "name": "lambose",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "titan",
+      "name": "Titan",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "bettle",
+      "name": "New Bettle",
+      "trunk": 35,
+      "type": "vip"
+    },
+    {
+      "model": "senna",
+      "name": "PROGEN Senna",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "bnteam",
+      "name": "Bentley",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "rmodlp770",
+      "name": "PEGASSI Centenario",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "s15",
+      "name": "ANNIS Silvia S15",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "amggtr",
+      "name": "BENEFACTOR AMG",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "lamtmc",
+      "name": "PEGASSI Terzo",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "vantage",
+      "name": "DEWBAUCHEE Vantage",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "slsamg",
+      "name": "BENEFACTOR SLS",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "g65amg",
+      "name": "BENEFACTOR G65",
+      "trunk": 0,
+      "type": "vip"
+    },
+    {
+      "model": "celta",
+      "name": "Celta Paredão",
+      "trunk": 0,
+      "type": "vip"
+    },
+    {
+      "model": "eleanor",
+      "name": "Mustang Eleanor",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "rmodamgc63",
+      "name": "BENEFACTOR AMG C63",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "palameila",
+      "name": "PFISTER Pamodelra",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "cb500x",
+      "name": "DINKA CB500",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "rsvr16",
+      "name": "Ranger Rover",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "19ramdonk",
+      "name": "BRAVADO Ram Donk",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "silv86",
+      "name": "Silverado Donk",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "bc",
+      "name": "Pagani Huayra",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "70camarofn",
+      "name": "camaro Z28 1970",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "bbentayga",
+      "name": "ENUS Bentayga",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "nissantitan17",
+      "name": "ANNIS Titan 2017",
+      "trunk": 120,
+      "type": "vip"
+    },
+    {
+      "model": "regera",
+      "name": "OVERFLOD Regera",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "msohs",
+      "name": "PROGEN 688 HS",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "gt17",
+      "name": "VAPID GT 17",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "19ftype",
+      "name": "OCELOT F-Type",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "488gtb",
+      "name": "GROTTI 488 GTB",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "m2",
+      "name": "UBERMACHT M2",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "defiant",
+      "name": "AMC Javelin 72",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "f12tdf",
+      "name": "GROTTI F12 TDF",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "71gtx",
+      "name": "Plymouth 71 GTX",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "porsche992",
+      "name": "PFISTER 992",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "18macan",
+      "name": "PFISTER Macan",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "m6e63",
+      "name": "UBERMACHT M6 E63",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "180sx",
+      "name": "ANNIS 180SX",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "hondafk8",
+      "name": "DINKA FK8",
+      "trunk": 40,
+      "type": "import"
+    },
+    {
+      "model": "mustangmach1",
+      "name": "Mustang Mach 1",
+      "trunk": 40,
+      "type": "import"
+    },
+    {
+      "model": "porsche930",
+      "name": "PFISTER 930",
+      "trunk": 20,
+      "type": "import"
+    },
+    {
+      "model": "raptor2017",
+      "name": "VAPID Raptor 2017",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "filthynsx",
+      "name": "DINKA NSX",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "2018zl1",
+      "name": "Camaro ZL1",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "eclipse",
+      "name": "MAIBATSU Eclipse",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "lp700r",
+      "name": "PEGASSI LP700R",
+      "trunk": 0,
+      "type": "vip"
+    },
+    {
+      "model": "db11",
+      "name": "DEWBAUCHEE DB11",
+      "trunk": 0,
+      "type": "vip"
+    },
+    {
+      "model": "beetle74",
+      "name": "Fusca 74",
+      "trunk": 40,
+      "type": "import"
+    },
+    {
+      "model": "fe86",
+      "name": "Escorte",
+      "trunk": 40,
+      "type": "import"
+    },
+    {
+      "model": "type263",
+      "name": "Kombi 63",
+      "trunk": 60,
+      "type": "import"
+    },
+    {
+      "model": "pistas",
+      "name": "GROTTI Pista",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "yzfr125",
+      "name": "NAGASAKI YZF R125",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "mt03",
+      "name": "NAGASAKI MT 03",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "flatbed3",
+      "name": "flatbed3",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "20r1",
+      "name": "NAGASAKI YZF R1",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "SVR14",
+      "name": "Ranger Rover",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "Bimota",
+      "name": "PEGASSI Bimota",
+      "trunk": 10,
+      "type": "vip"
+    },
+    {
+      "model": "r8ppi",
+      "name": "OBEY R8 PPI Razor",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "bobbes2",
+      "name": "Harley D. Bobber S",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "bobber",
+      "name": "Harley D. Bobber ",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "911tbs",
+      "name": "PFISTER 911S",
+      "trunk": 25,
+      "type": "vip"
+    },
+    {
+      "model": "23camss",
+      "name": "23Camry SS",
+      "trunk": 25,
+      "type": "vip"
+    },
+    {
+      "model": "rc",
+      "name": "KTM RC",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "brutus",
+      "name": "Brutus",
+      "trunk": 2000,
+      "type": "vip"
+    },
+    {
+      "model": "cargobob2",
+      "name": "Cargo Bob",
+      "trunk": 0,
+      "type": "service"
+    },
+    {
+      "model": "cargobob",
+      "name": "CargoBob",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "zx10r",
+      "name": "NAGASAKI ZX10R",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "fox600lt",
+      "name": "PROGEN 600LT",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxbent1",
+      "name": "ENUS Liter 1931",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "jeepg",
+      "name": "CANIS Gladiator",
+      "trunk": 90,
+      "type": "vip"
+    },
+    {
+      "model": "foxharley1",
+      "name": "Harley-Davidson Softail F.B.",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "foxharley2",
+      "name": "2016 Harley-Davidson Road Glide",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "foxleggera",
+      "name": "DEWBAUCHEE Leggera",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "foxrossa",
+      "name": "GROTTI Rossa",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxshelby",
+      "name": "VAPID Shelby GT500",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxsian",
+      "name": "PEGASSI Sian",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxsterrato",
+      "name": "PEGASSI Sterrato",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "foxsupra",
+      "name": "KARIN Supra",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "m6x6",
+      "name": "BENEFACTOR Benz 6x6",
+      "trunk": 90,
+      "type": "vip"
+    },
+    {
+      "model": "m6gt3",
+      "name": "UBERMACHT M6 GT3",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "w900",
+      "name": "Kenworth W900",
+      "trunk": 130,
+      "type": "vip"
+    },
+    {
+      "model": "22g63",
+      "name": "22g63",
+      "trunk": 130,
+      "type": "vip"
+    },
+    {
+      "model": "ram2500",
+      "name": "ram2500",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "sugoi",
+      "name": "Sugoi",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "fiatstilo",
+      "name": "Fiat Stilo",
+      "trunk": 50,
+      "type": "sedans"
+    },
+    {
+      "model": "fiat",
+      "name": "Fiat",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "palio2",
+      "name": "Palio2",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "wruno",
+      "name": "Wr Uno",
+      "trunk": 30,
+      "type": "sedans"
+    },
+    {
+      "model": "silvia",
+      "name": "Silvia",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "xplaid24c",
+      "name": "COIL Model X",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "amrevu23mg",
+      "name": "PEGASSI Revuelto",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrbrickade",
+      "name": "WR Brickade",
+      "trunk": 1000,
+      "type": "vip"
+    },
+    {
+      "model": "adolescentem8gte",
+      "name": "KID M8GTE",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "adolescentem8gte",
+      "name": "Wr LamboKid",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrminir34",
+      "name": "WR Minir34",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrminie36",
+      "name": "WR Minie36",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrspiderkid",
+      "name": "WR SPIDER",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrminiporsche",
+      "name": "Wr MiniPorsche",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrplasticcar",
+      "name": "WR Plastic",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "minievoque",
+      "name": "Mini Evoque",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "wrrelampagomarquinhos",
+      "name": "Wr Relampago",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "babyr35",
+      "name": "Babyr35",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "nimbus16",
+      "name": "nimbus16",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "burrito6",
+      "name": "Burrito6",
+      "trunk": 600,
+      "type": "outros"
+    },
+    {
+      "model": "burritonatal",
+      "name": "Burrito Natal",
+      "trunk": 600,
+      "type": "outros"
+    },
+    {
+      "model": "wrrtracer900",
+      "name": "WR Rtracer900",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "wrcayenne",
+      "name": "WR Cayenne",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "gtb22",
+      "name": "GTB 22",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "wreclipse",
+      "name": "WR Eclipse",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "wrgolquadrado",
+      "name": "WR Gol Quadrado",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "1winskyline",
+      "name": "1WIN Skyline",
+      "trunk": 20,
+      "type": "vip"
+    },
+    {
+      "model": "mclarensenna",
+      "name": "PROGEN Senna",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "gt3marlboro",
+      "name": "GT3 Marlboro",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "mclaren",
+      "name": "PROGEN MP4/4",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "q6audi23",
+      "name": "OBEY Q6",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "m8gte",
+      "name": "M8 GTE",
+      "trunk": 50,
+      "type": "vip"
+    },
+    {
+      "model": "mysterym",
+      "name": "Van Scooby Doo",
+      "trunk": 350,
+      "type": "vip"
+    },
+    {
+      "model": "sl63",
+      "name": "BENEFACTOR SL63",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "mersa45",
+      "name": "A45 AMG",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "gls600",
+      "name": "Maybach GLS600",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "monster5",
+      "name": "Monster5",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "monster4",
+      "name": "Monster4",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "monster3",
+      "name": "Monster3",
+      "trunk": 100,
+      "type": "vip"
+    },
+    {
+      "model": "xmasirisrora",
+      "name": "Xmas Irisrora",
+      "trunk": 150,
+      "type": "vip"
+    },
+    {
+      "model": "mvso",
+      "name": "MV Agusta Brutalle 1000",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "720wb",
+      "name": "PROGEN 720S WB",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "pounderesc",
+      "name": "Pounder Esc",
+      "trunk": 400,
+      "type": "vip"
+    },
+    {
+      "model": "speedobg",
+      "name": "Speedobg",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "polmavbg",
+      "name": "Polmavbg",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "aventsvjr",
+      "name": "Aventador SVJ",
+      "trunk": 35,
+      "type": "vip"
+    },
+    {
+      "model": "haya24nbrt",
+      "name": "Hayabusa 2024",
+      "trunk": 15,
+      "type": "vip"
+    },
+    {
+      "model": "gle",
+      "name": "GLE 53",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "wrxl750",
+      "name": "wrxl750",
+      "trunk": 80,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredgls600",
+      "name": "GLS 600",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredpurosangue",
+      "name": "GROTTI Purosangue",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "F40LBWK",
+      "name": "GROTTI SF90",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "sf90",
+      "name": "F40 Libery Walk",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "x6",
+      "name": "X6",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredvenatus",
+      "name": "Venatus",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "seal24",
+      "name": "Seal 2024",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "ix22",
+      "name": "IX 2022",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrr1sakura",
+      "name": "R1 SAKURA",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "m2out",
+      "name": "M2 Outubro Rosa",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "chironss22",
+      "name": "Chiron SS",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "718c",
+      "name": "718 GT4",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "wrbb64",
+      "name": "wrbb64",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredvelar",
+      "name": "Armored Velar",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredurus",
+      "name": "Armored Urus",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredgle",
+      "name": "Armored GLE",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredx7m60i",
+      "name": "Armored X7M60I",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredx6",
+      "name": "Armored X6",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrarmoredescalade",
+      "name": "Armored Escalade",
+      "trunk": 60,
+      "type": "vip"
+    },
+    {
+      "model": "wrverusfac",
+      "name": "Verus FAC",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "chironss22",
+      "name": "Chiron SS",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "mbc",
+      "name": "BENEFACTOR MBC",
+      "trunk": 30,
+      "type": "vip"
+    },
+    {
+      "model": "palio",
+      "name": "PALIO",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "fiat",
+      "name": "FIAT",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "biz25",
+      "name": "BIZ25",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "punto",
+      "name": "PUNTO",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "fordka",
+      "name": "FORDKA",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "palio2",
+      "name": "PALIO 2",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "ds4",
+      "name": "DS4",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "fiatstilo",
+      "name": "fiatstilo",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "cg125",
+      "name": "CG125",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "hilux2019",
+      "name": "HILUX2019",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "150",
+      "name": "150",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "wruno",
+      "name": "WRUNO",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "monza",
+      "name": "MONZA",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "wrgolquadrado",
+      "name": "WRGOLQUADRADO",
+      "trunk": 30,
+      "type": "outros"
+    },
+    {
+      "model": "rvgsthw",
+      "name": "rvgsthw",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rvzrhw",
+      "name": "rvzrhw",
+      "trunk": 40,
+      "type": "vip"
+    },
+    {
+      "model": "rvgthw",
+      "name": "rvgthw",
+      "trunk": 40,
+      "type": "vip"
+    }
+  ],
+  "itens": [
+    {
+      "name": "G36",
+      "index": "weapon_specialcarbine_mk2",
+      "weight": 8
+    },
+    {
+      "name": "AK-47",
+      "index": "weapon_assaultrifle_mk2",
+      "weight": 8.5
+    },
+    {
+      "name": "MP5",
+      "index": "weapon_smg",
+      "weight": 6
+    },
+    {
+      "name": "Desert Eagle",
+      "index": "weapon_pistol50",
+      "weight": 4
+    },
+    {
+      "name": "Mochila",
+      "index": "mochila",
+      "weight": 1.5
+    },
+    {
+      "name": "Lockpick",
+      "index": "lockpick",
+      "weight": 1
+    },
+    {
+      "name": "Kit de Reparo",
+      "index": "repairkit",
+      "weight": 2
+    },
+    {
+      "name": "Pão",
+      "index": "bread",
+      "weight": 0.2
+    },
+    {
+      "name": "Água",
+      "index": "water",
+      "weight": 0.2
+    },
+    {
+      "name": "Cocaína",
+      "index": "cocaina",
+      "weight": 0.5
+    },
+    {
+      "name": "Hammer",
+      "index": "weapon_hammer",
+      "weight": 3
+    },
+    {
+      "name": "FuelTech",
+      "index": "fueltech",
+      "weight": 0.1
+    },
+    {
+      "name": "Pacote de Componentes",
+      "index": "pacote_componentes",
+      "weight": 5
+    },
+    {
+      "name": "Plástico",
+      "index": "plastico",
+      "weight": 1
+    },
+    {
+      "name": "Five-Seven",
+      "index": "weapon_pistol_mk2",
+      "weight": 3
+    },
+    {
+      "name": "Tazer",
+      "index": "weapon_stungun",
+      "weight": 1
+    },
+    {
+      "name": "Adaga",
+      "index": "weapon_daegger",
+      "weight": 8
+    },
+    {
+      "name": "MG OURO",
+      "index": "weapon_mgouroo",
+      "weight": 8
+    },
+    {
+      "name": "M-MG OURO",
+      "index": "ammo_mgouroo",
+      "weight": 0.05
+    },
+    {
+      "name": "Pacu",
+      "index": "pacu",
+      "weight": 1.5
+    },
+    {
+      "name": "M-Revolver",
+      "index": "ammo_revolver_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "Apreensao",
+      "index": "apreensao",
+      "weight": 0.2
+    },
+    {
+      "name": "M-MICROSMG",
+      "index": "ammo_microsmg",
+      "weight": 0.05
+    },
+    {
+      "name": "Lanterna",
+      "index": "weapon_flashlight",
+      "weight": 3
+    },
+    {
+      "name": "Aço",
+      "index": "m-aco",
+      "weight": 0.3
+    },
+    {
+      "name": "Dipirona",
+      "index": "dipirona",
+      "weight": 0.05
+    },
+    {
+      "name": "Pó de Opio",
+      "index": "opiopapoula",
+      "weight": 0.3
+    },
+    {
+      "name": "Tec-9",
+      "index": "weapon_machinepistol",
+      "weight": 6
+    },
+    {
+      "name": "Ticket Corrida",
+      "index": "ticket",
+      "weight": 1
+    },
+    {
+      "name": "Machados",
+      "index": "weapon_hatchet",
+      "weight": 3
+    },
+    {
+      "name": "Gasolina",
+      "index": "ammo_petrolcan",
+      "weight": 0.05
+    },
+    {
+      "name": "Corpo de Shotgun",
+      "index": "m-corpo_shotgun",
+      "weight": 5
+    },
+    {
+      "name": "Inibidor de Memória",
+      "index": "inibidormemoria",
+      "weight": 0.5
+    },
+    {
+      "name": "MasterPick",
+      "index": "masterpick",
+      "weight": 1
+    },
+    {
+      "name": "Camera",
+      "index": "camerainstalar",
+      "weight": 1
+    },
+    {
+      "name": "Tablet Cameras",
+      "index": "tabletcamera",
+      "weight": 1
+    },
+    {
+      "name": "Vale mansao 1m",
+      "index": "valemansao1m",
+      "weight": 0
+    },
+    {
+      "name": "M-Pdw",
+      "index": "ammo_combatpdw",
+      "weight": 0.05
+    },
+    {
+      "name": "M-Shotgun",
+      "index": "ammo_sawnoffshotgun",
+      "weight": 0.05
+    },
+    {
+      "name": "Safira",
+      "index": "safira",
+      "weight": 1
+    },
+    {
+      "name": "M-Bola",
+      "index": "ammo_snowball",
+      "weight": 0.05
+    },
+    {
+      "name": "Molas",
+      "index": "molas",
+      "weight": 0.15
+    },
+    {
+      "name": "M4",
+      "index": "weapon_carbinerifle",
+      "weight": 8
+    },
+    {
+      "name": "MTAR",
+      "index": "weapon_assaultsmg",
+      "weight": 6
+    },
+    {
+      "name": "Zinco e Cobre",
+      "index": "zincocobre",
+      "weight": 0.01
+    },
+    {
+      "name": "Alvejante",
+      "index": "lalvejante",
+      "weight": 0.1
+    },
+    {
+      "name": "Colete",
+      "index": "body_armor",
+      "weight": 1
+    },
+    {
+      "name": "M-SNIPER",
+      "index": "ammo_heavysniper",
+      "weight": 0.05
+    },
+    {
+      "name": "Pregos",
+      "index": "pregos",
+      "weight": 2
+    },
+    {
+      "name": "Algemas",
+      "index": "algemas",
+      "weight": 2
+    },
+    {
+      "name": "Notebook",
+      "index": "notebook",
+      "weight": 0.1
+    },
+    {
+      "name": "Garrafa de Nitro",
+      "index": "garrafanitro",
+      "weight": 1
+    },
+    {
+      "name": "Carne de Puma",
+      "index": "carnedepuma",
+      "weight": 3
+    },
+    {
+      "name": "Furadeira",
+      "index": "furadeira",
+      "weight": 3
+    },
+    {
+      "name": "Cartão Cupula",
+      "index": "cartaocupula",
+      "weight": 0.01
+    },
+    {
+      "name": "Cartão Pentagono",
+      "index": "cartaopentagono",
+      "weight": 0.01
+    },
+    {
+      "name": "A Ordem",
+      "index": "aordem",
+      "weight": 0.01
+    },
+    {
+      "name": "Heroina",
+      "index": "heroina",
+      "weight": 0.3
+    },
+    {
+      "name": "Apple Watch",
+      "index": "apple_watch",
+      "weight": 0.5
+    },
+    {
+      "name": "Vodka",
+      "index": "vodka",
+      "weight": 1
+    },
+    {
+      "name": "Clozapina",
+      "index": "clozapina",
+      "weight": 0.05
+    },
+    {
+      "name": "Jogue Fora",
+      "index": "repairkit2",
+      "weight": 1
+    },
+    {
+      "name": "Arame de Borracha",
+      "index": "borrachaarame",
+      "weight": 0.5
+    },
+    {
+      "name": "Lata de Tinta",
+      "index": "latatinta",
+      "weight": 0.5
+    },
+    {
+      "name": "Chave de Boca",
+      "index": "chaveboca",
+      "weight": 0.5
+    },
+    {
+      "name": "M-Glock",
+      "index": "ammo_combatpistol",
+      "weight": 0.05
+    },
+    {
+      "name": "Alterar Identidade",
+      "index": "rename",
+      "weight": 0
+    },
+    {
+      "name": "Alterar RG",
+      "index": "alterarrg",
+      "weight": 0
+    },
+    {
+      "name": "Anfetamina",
+      "index": "anfetamina",
+      "weight": 0.1
+    },
+    {
+      "name": "Vale mansao 100m",
+      "index": "valemansao100m",
+      "weight": 0
+    },
+    {
+      "name": "Goiaba",
+      "index": "goiaba",
+      "weight": 1
+    },
+    {
+      "name": "Pendrive",
+      "index": "pendrive",
+      "weight": 1
+    },
+    {
+      "name": "Machete",
+      "index": "weapon_machete",
+      "weight": 3
+    },
+    {
+      "name": "Respingo de Solda",
+      "index": "respingodesolda",
+      "weight": 0.3
+    },
+    {
+      "name": "Relogio",
+      "index": "relogioroubado",
+      "weight": 0.5
+    },
+    {
+      "name": "Chave da Cidade",
+      "index": "chavedacidade",
+      "weight": 0.5
+    },
+    {
+      "name": "Componentes Eletrônicos",
+      "index": "compeletronico",
+      "weight": 0.5
+    },
+    {
+      "name": "Cabo de Fiação",
+      "index": "cabofiacao",
+      "weight": 0.5
+    },
+    {
+      "name": "Passporte da Ilha",
+      "index": "passaporteilha",
+      "weight": 0.5
+    },
+    {
+      "name": "M-Gas",
+      "index": "ammo_bzgas",
+      "weight": 0.05
+    },
+    {
+      "name": "Cachorro Quente",
+      "index": "cachorroq",
+      "weight": 0.5
+    },
+    {
+      "name": "M-G3",
+      "index": "ammo_specialcarbine_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "M-Rifle Tatico",
+      "index": "ammo_tacticalrifle",
+      "weight": 0.05
+    },
+    {
+      "name": "Cocaina",
+      "index": "cocaina",
+      "weight": 0.3
+    },
+    {
+      "name": "Folha de Maconha",
+      "index": "folhamaconha",
+      "weight": 0.1
+    },
+    {
+      "name": "Donut",
+      "index": "donut",
+      "weight": 0.2
+    },
+    {
+      "name": "Suco de Limao",
+      "index": "sucol2",
+      "weight": 0.5
+    },
+    {
+      "name": "Papel",
+      "index": "papel",
+      "weight": 0.05
+    },
+    {
+      "name": "Ferro",
+      "index": "c-ferro",
+      "weight": 0.01
+    },
+    {
+      "name": "Desbloqueador de Sinal",
+      "index": "desbloqueadorsinal",
+      "weight": 0.01
+    },
+    {
+      "name": "Grampo",
+      "index": "grampoprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Molde",
+      "index": "moldeprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Copo",
+      "index": "copoprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Ferro",
+      "index": "ferroprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Cobre",
+      "index": "cobreprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Pedra",
+      "index": "pedraprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Papel",
+      "index": "papelprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Maconha",
+      "index": "maconhaprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Crack",
+      "index": "crackprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Plástico",
+      "index": "plasticoprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Garrafa Quebrada",
+      "index": "garrafaquebradaprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Pedaço de Arame",
+      "index": "pedacoarameprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Tijolo",
+      "index": "tijoloprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Dedo Decepado",
+      "index": "dedodecepadoprison",
+      "weight": 0.01
+    },
+    {
+      "name": "Fibra de Carbono",
+      "index": "fibradecarbono",
+      "weight": 0.1
+    },
+    {
+      "name": "Fibra",
+      "index": "fibra",
+      "weight": 0.1
+    },
+    {
+      "name": "Maracujá",
+      "index": "maracuja",
+      "weight": 1
+    },
+    {
+      "name": "Pacote Eletrico",
+      "index": "pacote_eletrico",
+      "weight": 3
+    },
+    {
+      "name": "M-Barret",
+      "index": "ammo_barret",
+      "weight": 0.05
+    },
+    {
+      "name": "Ouro",
+      "index": "ouro",
+      "weight": 1
+    },
+    {
+      "name": "Alterar Placa",
+      "index": "alterarplaca",
+      "weight": 0
+    },
+    {
+      "name": "Corda",
+      "index": "corda",
+      "weight": 1
+    },
+    {
+      "name": "Capa Colete",
+      "index": "m-capa_colete",
+      "weight": 0.5
+    },
+    {
+      "name": "Item de Tuning",
+      "index": "suspension",
+      "weight": 0.1
+    },
+    {
+      "name": "Cicatricure",
+      "index": "cicatricure",
+      "weight": 0.05
+    },
+    {
+      "name": "Navy Revolver",
+      "index": "weapon_navyrevolver",
+      "weight": 8
+    },
+    {
+      "name": "M-NavyRevolver",
+      "index": "ammo_navyrevolver",
+      "weight": 0.05
+    },
+    {
+      "name": "G3 MK2",
+      "index": "weapon_specialcarbine_mk2",
+      "weight": 8
+    },
+    {
+      "name": "Rifle Tatico",
+      "index": "weapon_tacticalrifle",
+      "weight": 8
+    },
+    {
+      "name": "Heavy Rifle",
+      "index": "weapon_heavyrifle",
+      "weight": 8
+    },
+    {
+      "name": "AK PENTE 90",
+      "index": "weapon_akpentede90_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-AK PENTE 90",
+      "index": "ammo_akpentedE90_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "AK DE FERRO",
+      "index": "weapon_akdeferro_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-AK DE FERRO",
+      "index": "ammo_akdeferro_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "AK CROMO",
+      "index": "weapon_akcromo",
+      "weight": 8
+    },
+    {
+      "name": "M-AK CROMO",
+      "index": "ammo_akcromo",
+      "weight": 0.05
+    },
+    {
+      "name": "AR FEMININO 1",
+      "index": "weapon_arrelikiashopfeminino1",
+      "weight": 8
+    },
+    {
+      "name": "M-AR FEMININO 1",
+      "index": "ammo_arrelikiashopfeminino1",
+      "weight": 0.05
+    },
+    {
+      "name": "AR FEMININO 2",
+      "index": "weapon_arrelikiashopfeminino2",
+      "weight": 8
+    },
+    {
+      "name": "M-AR FEMININO 2",
+      "index": "ammo_arrelikiashopfeminino2",
+      "weight": 0.05
+    },
+    {
+      "name": "AR VASCO",
+      "index": "weapon_arvasco",
+      "weight": 8
+    },
+    {
+      "name": "M-AR VASCO",
+      "index": "ammo_arvasco",
+      "weight": 0.05
+    },
+    {
+      "name": "Famas",
+      "index": "weapon_bullpuprifle_mk2",
+      "weight": 8
+    },
+    {
+      "name": "M-FAMAS RIFLE",
+      "index": "ammo_bullpuprifle_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "QBZ",
+      "index": "weapon_qbz83",
+      "weight": 8
+    },
+    {
+      "name": "M-QBZ83",
+      "index": "ammo_qbz83",
+      "weight": 0.05
+    },
+    {
+      "name": "CHEYTAC",
+      "index": "weapon_cheytac",
+      "weight": 8
+    },
+    {
+      "name": "M-CHEYTAC",
+      "index": "ammo_cheytac",
+      "weight": 0.05
+    },
+    {
+      "name": "G3 FEMININO",
+      "index": "weapon_g3relikiashopfeminino",
+      "weight": 8
+    },
+    {
+      "name": "M-G3 FEMININO",
+      "index": "ammo_g3relikiashopfeminino",
+      "weight": 0.05
+    },
+    {
+      "name": "GLOCK RAJADA",
+      "index": "weapon_glockrajada",
+      "weight": 8
+    },
+    {
+      "name": "M-GLOCK RAJADA",
+      "index": "ammo_glockrajada",
+      "weight": 0.05
+    },
+    {
+      "name": "GLOCK FEMININO 0",
+      "index": "weapon_glockrelikiashopfeminino0",
+      "weight": 8
+    },
+    {
+      "name": "M-GLOCK FEMININO 0",
+      "index": "ammo_glockrelikiashopfeminino0",
+      "weight": 0.05
+    },
+    {
+      "name": "AK 472",
+      "index": "weapon_ak472",
+      "weight": 8
+    },
+    {
+      "name": "M-AK 472",
+      "index": "ammo_ak472",
+      "weight": 0.05
+    },
+    {
+      "name": "AR 10 PRETO",
+      "index": "weapon_ar10preto_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-AR 10 PRETO",
+      "index": "ammo_ar10preto_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "AR 15 BEGE",
+      "index": "weapon_ar15bege_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-AR 15 BEGE",
+      "index": "ammo_ar15bege_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "AR PENTE ACRILICO",
+      "index": "weapon_arpenteacrilico_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-AR PENTE ACRILICO",
+      "index": "ammo_arpenteacrilico_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "AR DE LUNETA",
+      "index": "weapon_ardeluneta_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-AR DE LUNETA",
+      "index": "ammo_ardeluneta_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "AR LUNETA PRATA",
+      "index": "weapon_arlunetaprata",
+      "weight": 8
+    },
+    {
+      "name": "M-AR LUNETA PRATA",
+      "index": "ammo_arlunetaprata",
+      "weight": 0.05
+    },
+    {
+      "name": "AR TAMBOR",
+      "index": "weapon_artambor",
+      "weight": 8
+    },
+    {
+      "name": "M-AR TAMBOR",
+      "index": "ammo_artambor",
+      "weight": 0.05
+    },
+    {
+      "name": "G3 LUNETA",
+      "index": "weapon_g3luneta_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "FNFAL",
+      "index": "weapon_fnfal",
+      "weight": 8
+    },
+    {
+      "name": "M-FNFAL",
+      "index": "ammo_fnfal",
+      "weight": 0.05
+    },
+    {
+      "name": "M-M16A4TCP",
+      "index": "ammo_m16a4tcp",
+      "weight": 0.05
+    },
+    {
+      "name": "M-FALDIAL",
+      "index": "ammo_faldial",
+      "weight": 0.05
+    },
+    {
+      "name": "M-VKFAL",
+      "index": "ammo_vkfal",
+      "weight": 0.05
+    },
+    {
+      "name": "M-AR15LONG",
+      "index": "ammo_ar15long",
+      "weight": 0.05
+    },
+    {
+      "name": "M-THERMAL",
+      "index": "ammo_thermal",
+      "weight": 0.05
+    },
+    {
+      "name": "M-M4BAL",
+      "index": "ammo_m4bal",
+      "weight": 0.05
+    },
+    {
+      "name": "M-PS FAL ERMANO V1",
+      "index": "ammo_ps_fal_ermano_v1",
+      "weight": 0.05
+    },
+    {
+      "name": "M-PABSS",
+      "index": "ammo_pabss",
+      "weight": 0.05
+    },
+    {
+      "name": "M-TONY STARK",
+      "index": "ammo_tonystark",
+      "weight": 0.05
+    },
+    {
+      "name": "M-DOZE BORRACHA",
+      "index": "ammo_dozeborracha",
+      "weight": 0.05
+    },
+    {
+      "name": "GLOCK DE ROUPA",
+      "index": "weapon_glockderoupa_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "Tempered",
+      "index": "weapon_tempered",
+      "weight": 8
+    },
+    {
+      "name": "M-Tempered",
+      "index": "ammo_tempered",
+      "weight": 0.05
+    },
+    {
+      "name": "Scar-L",
+      "index": "weapon_fnscar",
+      "weight": 8
+    },
+    {
+      "name": "M-FN SCAR",
+      "index": "ammo_fnscar",
+      "weight": 0.05
+    },
+    {
+      "name": "HK G3A3",
+      "index": "weapon_hkg3a3",
+      "weight": 8
+    },
+    {
+      "name": "M-HK G3A3",
+      "index": "ammo_hkg3a3",
+      "weight": 0.05
+    },
+    {
+      "name": "HK",
+      "index": "weapon_hk_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-HK",
+      "index": "ammo_hk_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "PENTE DUPLO",
+      "index": "weapon_penteduplo1",
+      "weight": 8
+    },
+    {
+      "name": "M-PENTE DUPLO",
+      "index": "ammo_penteduplo1",
+      "weight": 0.05
+    },
+    {
+      "name": ".50",
+      "index": "weapon_50_relikiashop",
+      "weight": 8
+    },
+    {
+      "name": "M-.50",
+      "index": "ammo_50_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "Fall Flamengo",
+      "index": "weapon_fallflamengo",
+      "weight": 8
+    },
+    {
+      "name": "M-FALL FLAMENGO",
+      "index": "ammo_fallflamengo",
+      "weight": 0.05
+    },
+    {
+      "name": "AR 15",
+      "index": "weapon_ar15",
+      "weight": 8
+    },
+    {
+      "name": "M-AR 15",
+      "index": "ammo_ar15",
+      "weight": 0.05
+    },
+    {
+      "name": "MADSEN",
+      "index": "weapon_madsen",
+      "weight": 8
+    },
+    {
+      "name": "M-MADSEN",
+      "index": "ammo_madsen",
+      "weight": 0.05
+    },
+    {
+      "name": "QBZ-83",
+      "index": "weapon_qbz83",
+      "weight": 8
+    },
+    {
+      "name": "M-QBZ-83",
+      "index": "ammo_qbz83",
+      "weight": 0.05
+    },
+    {
+      "name": "COLT XM177",
+      "index": "weapon_coltxm177",
+      "weight": 8
+    },
+    {
+      "name": "M-COLT XM177",
+      "index": "ammo_coltxm177",
+      "weight": 0.05
+    },
+    {
+      "name": "Marmitex",
+      "index": "marmita",
+      "weight": 2
+    },
+    {
+      "name": "chavedeprisao",
+      "index": "chavedeprisao",
+      "weight": 0.05
+    },
+    {
+      "name": "Poliester",
+      "index": "poliester",
+      "weight": 0.1
+    },
+    {
+      "name": "Corpo de Fajuta",
+      "index": "m-corpo_snspistol_mk2",
+      "weight": 1
+    },
+    {
+      "name": "Wrench",
+      "index": "weapon_wrench",
+      "weight": 3
+    },
+    {
+      "name": "Galão de gasolina",
+      "index": "weapon_petrolcan",
+      "weight": 1
+    },
+    {
+      "name": "Resina de Cannabis",
+      "index": "resinacannabis",
+      "weight": 0.3
+    },
+    {
+      "name": "M-AK-47",
+      "index": "ammo_assaultrifle",
+      "weight": 0.05
+    },
+    {
+      "name": "M-Fogos",
+      "index": "ammo_firework",
+      "weight": 0.05
+    },
+    {
+      "name": "Ferro",
+      "index": "ferro",
+      "weight": 0.05
+    },
+    {
+      "name": "Fajuta",
+      "index": "weapon_snspistol_mk2",
+      "weight": 3
+    },
+    {
+      "name": "Carne de Javali",
+      "index": "carnedejavali",
+      "weight": 3
+    },
+    {
+      "name": "Fluoxetina",
+      "index": "fluoxetina",
+      "weight": 0.05
+    },
+    {
+      "name": "Ópio",
+      "index": "opio",
+      "weight": 0.5
+    },
+    {
+      "name": "Keycard",
+      "index": "keycard",
+      "weight": 1
+    },
+    {
+      "name": "Mamadeira",
+      "index": "mamadeira",
+      "weight": 0.5
+    },
+    {
+      "name": "Paracetamol",
+      "index": "paracetamol",
+      "weight": 0.05
+    },
+    {
+      "name": "Isca",
+      "index": "isca",
+      "weight": 0.25
+    },
+    {
+      "name": "M-SMG",
+      "index": "ammo_smg",
+      "weight": 0.05
+    },
+    {
+      "name": "Pipoca",
+      "index": "pipoca",
+      "weight": 0.3
+    },
+    {
+      "name": "Metanfetamina ",
+      "index": "metanfetamina",
+      "weight": 0.3
+    },
+    {
+      "name": "Riopan",
+      "index": "riopan",
+      "weight": 0.05
+    },
+    {
+      "name": "Polvora",
+      "index": "polvora",
+      "weight": 0.01
+    },
+    {
+      "name": "Capsulas",
+      "index": "capsulas",
+      "weight": 0.01
+    },
+    {
+      "name": "Pulseira",
+      "index": "pulseiraroubada",
+      "weight": 0.1
+    },
+    {
+      "name": "Kit de Mergulho",
+      "index": "scubagear",
+      "weight": 10
+    },
+    {
+      "name": "Tucunare",
+      "index": "tucunare",
+      "weight": 2
+    },
+    {
+      "name": "Piranha",
+      "index": "piranha",
+      "weight": 2
+    },
+    {
+      "name": "Pirarucu",
+      "index": "pirarucu",
+      "weight": 2
+    },
+    {
+      "name": "Niquel",
+      "index": "niquel",
+      "weight": 2
+    },
+    {
+      "name": "Cromo",
+      "index": "cromo",
+      "weight": 2
+    },
+    {
+      "name": "Niobo",
+      "index": "niobo",
+      "weight": 2
+    },
+    {
+      "name": "Picareta",
+      "index": "picareta",
+      "weight": 0.25
+    },
+    {
+      "name": "Vara de Pesca",
+      "index": "vara",
+      "weight": 0.25
+    },
+    {
+      "name": "Dinheiro Sujo",
+      "index": "dirty_money",
+      "weight": 0
+    },
+    {
+      "name": "Vale mansao 8m",
+      "index": "valemansao8m",
+      "weight": 0
+    },
+    {
+      "name": "Fio",
+      "index": "c-fio",
+      "weight": 0.4
+    },
+    {
+      "name": "Attachs",
+      "index": "attachs",
+      "weight": 0.2
+    },
+    {
+      "name": "M-Pistol",
+      "index": "ammo_pistol",
+      "weight": 0.05
+    },
+    {
+      "name": "Sprunk",
+      "index": "sprunk",
+      "weight": 0.5
+    },
+    {
+      "name": "none",
+      "index": "none",
+      "weight": 0
+    },
+    {
+      "name": "Anticoncepcional",
+      "index": "anticoncepcional",
+      "weight": 0.05
+    },
+    {
+      "name": "RayPistol",
+      "index": "weapon_raypistol",
+      "weight": 3
+    },
+    {
+      "name": "Fogos de Artifício",
+      "index": "fireworks",
+      "weight": 0.5
+    },
+    {
+      "name": "Shotgun",
+      "index": "weapon_sawnoffshotgun",
+      "weight": 8
+    },
+    {
+      "name": "Balinha",
+      "index": "balinha",
+      "weight": 0.3
+    },
+    {
+      "name": "Pao de Queijo",
+      "index": "paoq",
+      "weight": 0.3
+    },
+    {
+      "name": "Barret",
+      "index": "weapon_barret",
+      "weight": 8
+    },
+    {
+      "name": "Bottle",
+      "index": "weapon_bottle",
+      "weight": 3
+    },
+    {
+      "name": "Maçarico",
+      "index": "macarico",
+      "weight": 1
+    },
+    {
+      "name": "Mochila",
+      "index": "mochila",
+      "weight": 2
+    },
+    {
+      "name": "Mochila X",
+      "index": "mochilax",
+      "weight": 2
+    },
+    {
+      "name": "Roupas",
+      "index": "roupas",
+      "weight": 0
+    },
+    {
+      "name": "Ingresso",
+      "index": "ingresso",
+      "weight": 0
+    },
+    {
+      "name": "Pacote de Polvora",
+      "index": "pacote_polvora",
+      "weight": 3
+    },
+    {
+      "name": "Corpo de SMG",
+      "index": "m-corpo_smg_mk2",
+      "weight": 2
+    },
+    {
+      "name": "Grajada",
+      "index": "weapon_grajada",
+      "weight": 8
+    },
+    {
+      "name": "M4MK2",
+      "index": "weapon_carbinerifle_mk2",
+      "weight": 8
+    },
+    {
+      "name": "Fogos",
+      "index": "weapon_firework",
+      "weight": 3
+    },
+    {
+      "name": "Kit de Nitro",
+      "index": "kitnitro",
+      "weight": 1
+    },
+    {
+      "name": "HeavyPistol",
+      "index": "weapon_heavypistol",
+      "weight": 3
+    },
+    {
+      "name": "Glock",
+      "index": "weapon_combatpistol",
+      "weight": 3
+    },
+    {
+      "name": "M-Smg MK2",
+      "index": "ammo_smg_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "Skate",
+      "index": "skate",
+      "weight": 1
+    },
+    {
+      "name": "Dinheiro",
+      "index": "money",
+      "weight": 0.000001
+    },
+    {
+      "name": "Vale mansao 500k",
+      "index": "valemansao500k",
+      "weight": 0
+    },
+    {
+      "name": "SwitchBlade",
+      "index": "weapon_switchblade",
+      "weight": 3
+    },
+    {
+      "name": "Bandagem",
+      "index": "bandagem",
+      "weight": 0.5
+    },
+    {
+      "name": "Tenda",
+      "index": "barrier",
+      "weight": 0.5
+    },
+    {
+      "name": "Submetralhadora Thompson",
+      "index": "weapon_gusenberg",
+      "weight": 3
+    },
+    {
+      "name": "M-MTAR",
+      "index": "ammo_assaultsmg",
+      "weight": 0.05
+    },
+    {
+      "name": "Chave de algemas",
+      "index": "chave_algemas",
+      "weight": 0.3
+    },
+    {
+      "name": "Cobre",
+      "index": "c-cobre",
+      "weight": 0.4
+    },
+    {
+      "name": "Ap Pistol",
+      "index": "weapon_appistol",
+      "weight": 3
+    },
+    {
+      "name": "Tiner",
+      "index": "tiner",
+      "weight": 0.3
+    },
+    {
+      "name": "Gatilho",
+      "index": "m-gatilho",
+      "weight": 0.8
+    },
+    {
+      "name": "M-DOUBLEACTION",
+      "index": "ammo_doubleaction",
+      "weight": 0.05
+    },
+    {
+      "name": "M-Fajuta",
+      "index": "ammo_snspistol_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "Knuckle",
+      "index": "weapon_knuckle",
+      "weight": 3
+    },
+    {
+      "name": "Carne de Lobo",
+      "index": "carnedelobo",
+      "weight": 3
+    },
+    {
+      "name": "Pacote de Tecido",
+      "index": "pacote_tecido",
+      "weight": 3
+    },
+    {
+      "name": "Caixa de entrega",
+      "index": "caixa",
+      "weight": 0.2
+    },
+    {
+      "name": "Pamonha",
+      "index": "pamonha",
+      "weight": 0.2
+    },
+    {
+      "name": "Milho",
+      "index": "milho",
+      "weight": 0.2
+    },
+    {
+      "name": "Paçoca",
+      "index": "pacoca",
+      "weight": 0.2
+    },
+    {
+      "name": "Peixe",
+      "index": "peixe",
+      "weight": 0.2
+    },
+    {
+      "name": "Sinalizador",
+      "index": "weapon_flare",
+      "weight": 3
+    },
+    {
+      "name": "Doritos",
+      "index": "doritos",
+      "weight": 0.5
+    },
+    {
+      "name": "Sanduiche",
+      "index": "sanduiche",
+      "weight": 0.5
+    },
+    {
+      "name": "Ferramenta",
+      "index": "ferramenta",
+      "weight": 1
+    },
+    {
+      "name": "Battleaxe",
+      "index": "weapon_battleaxe",
+      "weight": 3
+    },
+    {
+      "name": "Distintivo Policial",
+      "index": "distintivopolicial",
+      "weight": 0.3
+    },
+    {
+      "name": "Militec",
+      "index": "militec",
+      "weight": 1
+    },
+    {
+      "name": "Cogumelo ",
+      "index": "cogumelo",
+      "weight": 0.3
+    },
+    {
+      "name": "Flora ",
+      "index": "flora",
+      "weight": 0.3
+    },
+    {
+      "name": "M-M4",
+      "index": "ammo_carbinerifle_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "Corpo de Pistol",
+      "index": "m-corpo_pistol_mk2",
+      "weight": 1.5
+    },
+    {
+      "name": "Jogue Fora",
+      "index": "repairkit",
+      "weight": 1
+    },
+    {
+      "name": "Panetone",
+      "index": "panetone",
+      "weight": 0.5
+    },
+    {
+      "name": "Pasta Base",
+      "index": "pastabase",
+      "weight": 0.1
+    },
+    {
+      "name": "M-HeavyPistol",
+      "index": "ammo_heavypistol",
+      "weight": 0.05
+    },
+    {
+      "name": "Coca Cola",
+      "index": "cocacola",
+      "weight": 0.5
+    },
+    {
+      "name": "M-Pump Shotgun",
+      "index": "ammo_pumpshotgun_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "Aluminio",
+      "index": "aluminio",
+      "weight": 0.05
+    },
+    {
+      "name": "Dogão",
+      "index": "dogao",
+      "weight": 0.5
+    },
+    {
+      "name": "Pao",
+      "index": "pao",
+      "weight": 0.5
+    },
+    {
+      "name": "Fungo",
+      "index": "fungo",
+      "weight": 0.1
+    },
+    {
+      "name": "Peça de arma",
+      "index": "pecadearma",
+      "weight": 0.1
+    },
+    {
+      "name": "Peça de arma Prefeitura",
+      "index": "pecadearmaprefeitura",
+      "weight": 0.1
+    },
+    {
+      "name": "Sabão",
+      "index": "sabao",
+      "weight": 0.2
+    },
+    {
+      "name": "Limpador de Residuos",
+      "index": "limparesiduo",
+      "weight": 0.1
+    },
+    {
+      "name": "Tecido",
+      "index": "tecido",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Arma",
+      "index": "nfairsoft",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Municao",
+      "index": "nffogosartificio",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Lavagem",
+      "index": "nfmercado",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Droga",
+      "index": "nfmed1",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Droga 2",
+      "index": "nfmed2",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Droga 3",
+      "index": "nfmed3",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Droga 4",
+      "index": "nfmed4",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Droga 5",
+      "index": "nfmed5",
+      "weight": 0.1
+    },
+    {
+      "name": "Nota fiscal de Desmanche",
+      "index": "nfmetalurgica",
+      "weight": 0.1
+    },
+    {
+      "name": "Intimação",
+      "index": "intimacao",
+      "weight": 0.1
+    },
+    {
+      "name": "Coin",
+      "index": "coin",
+      "weight": 0.1
+    },
+    {
+      "name": "Maça",
+      "index": "maca",
+      "weight": 1
+    },
+    {
+      "name": "Corpo de TEC-9",
+      "index": "m-corpo_machinepistol",
+      "weight": 2
+    },
+    {
+      "name": "Celular",
+      "index": "celular",
+      "weight": 1
+    },
+    {
+      "name": "Barricada",
+      "index": "barricada",
+      "weight": 1
+    },
+    {
+      "name": "Radio",
+      "index": "radio",
+      "weight": 1
+    },
+    {
+      "name": "Tomate",
+      "index": "tomate",
+      "weight": 1
+    },
+    {
+      "name": "Kit Reparo",
+      "index": "repairkit3",
+      "weight": 1
+    },
+    {
+      "name": "Rastreador",
+      "index": "rastreador",
+      "weight": 1
+    },
+    {
+      "name": "Alicate",
+      "index": "alicate",
+      "weight": 1
+    },
+    {
+      "name": "Graos",
+      "index": "graosimpuros",
+      "weight": 1
+    },
+    {
+      "name": "C4",
+      "index": "c4",
+      "weight": 0.1
+    },
+    {
+      "name": "Polvora",
+      "index": "c-polvora",
+      "weight": 0.3
+    },
+    {
+      "name": "Laudo Teorico",
+      "index": "laudoteorico",
+      "weight": 0.3
+    },
+    {
+      "name": "Laudo Pratico",
+      "index": "laudopratico",
+      "weight": 0.3
+    },
+    {
+      "name": "Kit Neon",
+      "index": "kitneon",
+      "weight": 1
+    },
+    {
+      "name": "Lock Pick",
+      "index": "lockpick",
+      "weight": 1
+    },
+    {
+      "name": "MilitaryRifle",
+      "index": "weapon_militaryrifle",
+      "weight": 8
+    },
+    {
+      "name": "Vale mansao 10m",
+      "index": "valemansao10m",
+      "weight": 0
+    },
+    {
+      "name": "M-Grajada",
+      "index": "ammo_grajada",
+      "weight": 0.05
+    },
+    {
+      "name": "Malha",
+      "index": "m-malha",
+      "weight": 0.4
+    },
+    {
+      "name": "Capuz",
+      "index": "capuz",
+      "weight": 0.1
+    },
+    {
+      "name": "Suco de Laranja",
+      "index": "sucol",
+      "weight": 0.5
+    },
+    {
+      "name": "Pizza",
+      "index": "pizza",
+      "weight": 1.5
+    },
+    {
+      "name": "M-M4",
+      "index": "ammo_carbinerifle",
+      "weight": 0.05
+    },
+    {
+      "name": "M-PARAFAL",
+      "index": "ammo_parafal",
+      "weight": 0.05
+    },
+    {
+      "name": "M-Aug",
+      "index": "ammo_advancedrifle",
+      "weight": 0.05
+    },
+    {
+      "name": "PARAFAL",
+      "index": "weapon_mcx",
+      "weight": 8
+    },
+    {
+      "name": "M-MCX",
+      "index": "ammo_mcx",
+      "weight": 0.05
+    },
+    {
+      "name": "PARAFAL",
+      "index": "weapon_parafal",
+      "weight": 8
+    },
+    {
+      "name": "AR-Acrilico",
+      "index": "weapon_arpenteacrilico_relikiashop ",
+      "weight": 8
+    },
+    {
+      "name": "Aug",
+      "index": "weapon_advancedrifle",
+      "weight": 8
+    },
+    {
+      "name": "SNIPER",
+      "index": "weapon_heavysniper",
+      "weight": 8
+    },
+    {
+      "name": "Colar",
+      "index": "colarroubado",
+      "weight": 0.1
+    },
+    {
+      "name": "Corpo de G3",
+      "index": "m-corpo_g3",
+      "weight": 5
+    },
+    {
+      "name": "Cafe",
+      "index": "cafe",
+      "weight": 0.25
+    },
+    {
+      "name": "Bebida Estranha",
+      "index": "bebidaestranha",
+      "weight": 0.25
+    },
+    {
+      "name": "Whisky",
+      "index": "whisky",
+      "weight": 1
+    },
+    {
+      "name": "AK MK2",
+      "index": "weapon_assaultrifle_mk2",
+      "weight": 8
+    },
+    {
+      "name": "AK 47",
+      "index": "weapon_assaultrifle",
+      "weight": 8
+    },
+    {
+      "name": "Bronze",
+      "index": "bronze",
+      "weight": 1
+    },
+    {
+      "name": "Pump Shotgun",
+      "index": "weapon_pumpshotgun_mk2",
+      "weight": 8
+    },
+    {
+      "name": "Pump Shotgun",
+      "index": "weapon_pumpshotgun",
+      "weight": 8
+    },
+    {
+      "name": "M-Pump Shotgun",
+      "index": "ammo_pumpshotgun",
+      "weight": 0.05
+    },
+    {
+      "name": "M-AR-Acrilico",
+      "index": "ammo_arpenteacrilico_relikiashop",
+      "weight": 0.05
+    },
+    {
+      "name": "Skol Beats",
+      "index": "skolb",
+      "weight": 0.25
+    },
+    {
+      "name": "MICROSMG",
+      "index": "weapon_microsmg",
+      "weight": 6
+    },
+    {
+      "name": "M-Desert",
+      "index": "ammo_pistol50",
+      "weight": 0.05
+    },
+    {
+      "name": "SMG",
+      "index": "weapon_smg",
+      "weight": 6
+    },
+    {
+      "name": "Smg MK2",
+      "index": "weapon_smg_mk2",
+      "weight": 6
+    },
+    {
+      "name": "M-Tec-9",
+      "index": "ammo_machinepistol",
+      "weight": 0.05
+    },
+    {
+      "name": "Pistol",
+      "index": "weapon_pistol",
+      "weight": 3
+    },
+    {
+      "name": "Plastica",
+      "index": "plastica",
+      "weight": 0
+    },
+    {
+      "name": "Poolcue",
+      "index": "weapon_poolcue",
+      "weight": 3
+    },
+    {
+      "name": "Pacote Metalico",
+      "index": "pacote_metalico",
+      "weight": 10
+    },
+    {
+      "name": "Bastão de Beisebol",
+      "index": "weapon_bat",
+      "weight": 3
+    },
+    {
+      "name": "CrowBar",
+      "index": "weapon_crowbar",
+      "weight": 3
+    },
+    {
+      "name": "Cerveja",
+      "index": "cerveja",
+      "weight": 0.5
+    },
+    {
+      "name": "Dagger",
+      "index": "weapon_dagger",
+      "weight": 3
+    },
+    {
+      "name": "Faca",
+      "index": "weapon_knife",
+      "weight": 3
+    },
+    {
+      "name": "Combat Pdw",
+      "index": "weapon_combatpdw",
+      "weight": 3
+    },
+    {
+      "name": "Bola de Neve",
+      "index": "weapon_snowball",
+      "weight": 3
+    },
+    {
+      "name": "Pinga",
+      "index": "pinga",
+      "weight": 1
+    },
+    {
+      "name": "Desert Eagle",
+      "index": "weapon_pistol50",
+      "weight": 3
+    },
+    {
+      "name": "M-Thompson",
+      "index": "ammo_gusenberg",
+      "weight": 0.05
+    },
+    {
+      "name": "Agua",
+      "index": "water",
+      "weight": 0.5
+    },
+    {
+      "name": "Leite",
+      "index": "leite",
+      "weight": 0.1
+    },
+    {
+      "name": "Farinha",
+      "index": "farinha",
+      "weight": 0.1
+    },
+    {
+      "name": "Açucar",
+      "index": "acucar",
+      "weight": 0.1
+    },
+    {
+      "name": "Bolo",
+      "index": "bolo",
+      "weight": 5
+    },
+    {
+      "name": "Panqueca",
+      "index": "panqueca",
+      "weight": 3
+    },
+    {
+      "name": "Croissant",
+      "index": "croissant",
+      "weight": 3
+    },
+    {
+      "name": "Cappuccino",
+      "index": "cappuccino",
+      "weight": 3
+    },
+    {
+      "name": "Limonada",
+      "index": "limonada",
+      "weight": 1.5
+    },
+    {
+      "name": "Milkshake",
+      "index": "milkshake",
+      "weight": 1.5
+    },
+    {
+      "name": "Laranja",
+      "index": "laranja",
+      "weight": 1
+    },
+    {
+      "name": "Gas",
+      "index": "weapon_bzgas",
+      "weight": 3
+    },
+    {
+      "name": "DOUBLEACTION",
+      "index": "weapon_doubleaction",
+      "weight": 8
+    },
+    {
+      "name": "M-Ap Pistol",
+      "index": "ammo_appistol",
+      "weight": 0.05
+    },
+    {
+      "name": "Dorflex",
+      "index": "dorflex",
+      "weight": 0.05
+    },
+    {
+      "name": "Paraquedas",
+      "index": "gadget_parachute",
+      "weight": 3
+    },
+    {
+      "name": "Manga",
+      "index": "manga",
+      "weight": 1
+    },
+    {
+      "name": "Alterar Telefone",
+      "index": "alterartelefone",
+      "weight": 0
+    },
+    {
+      "name": "Ovo da Pascoa",
+      "index": "ovodapascoa",
+      "weight": 0.5
+    },
+    {
+      "name": "Tartaruga",
+      "index": "tartaruga",
+      "weight": 3
+    },
+    {
+      "name": "Camisinha",
+      "index": "camisinha",
+      "weight": 0.05
+    },
+    {
+      "name": "Tilapia",
+      "index": "tilapia",
+      "weight": 0.5
+    },
+    {
+      "name": "Brinco",
+      "index": "brincoroubado",
+      "weight": 0.1
+    },
+    {
+      "name": "Maconha",
+      "index": "maconha",
+      "weight": 0.3
+    },
+    {
+      "name": "Coumadin",
+      "index": "coumadin",
+      "weight": 0.05
+    },
+    {
+      "name": "Luftal",
+      "index": "luftal",
+      "weight": 0.05
+    },
+    {
+      "name": "Barra de chocolate",
+      "index": "barrac",
+      "weight": 0.5
+    },
+    {
+      "name": "Cataflan",
+      "index": "cataflan",
+      "weight": 0.05
+    },
+    {
+      "name": "Amoxilina",
+      "index": "amoxilina",
+      "weight": 0.05
+    },
+    {
+      "name": "Flor de Lotus",
+      "index": "flordelotus",
+      "weight": 1
+    },
+    {
+      "name": "Alianca",
+      "index": "alianca",
+      "weight": 1
+    },
+    {
+      "name": "M-MilitaryRifle",
+      "index": "ammo_militaryrifle",
+      "weight": 0.05
+    },
+    {
+      "name": "Absinto",
+      "index": "absinto",
+      "weight": 0.5
+    },
+    {
+      "name": "Corote",
+      "index": "corote",
+      "weight": 0.5
+    },
+    {
+      "name": "GolfClub",
+      "index": "weapon_golfclub",
+      "weight": 3
+    },
+    {
+      "name": "Placa de Metal",
+      "index": "metal",
+      "weight": 0.15
+    },
+    {
+      "name": "Revolver",
+      "index": "weapon_revolver_mk2",
+      "weight": 3
+    },
+    {
+      "name": "Garrafa Vazia",
+      "index": "emptybottle",
+      "weight": 0.2
+    },
+    {
+      "name": "M-AK MK2",
+      "index": "ammo_assaultrifle_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "M-Parafal",
+      "index": "ammo_specialcarbine",
+      "weight": 0.05
+    },
+    {
+      "name": "Coxinha",
+      "index": "coxinha",
+      "weight": 0.5
+    },
+    {
+      "name": "Rivotril",
+      "index": "rivotril",
+      "weight": 0.05
+    },
+    {
+      "name": "G36",
+      "index": "weapon_specialcarbine",
+      "weight": 8
+    },
+    {
+      "name": "Pneus",
+      "index": "pneus",
+      "weight": 10
+    },
+    {
+      "name": "Martelinho de Ouro",
+      "index": "martelinhodeouro",
+      "weight": 10
+    },
+    {
+      "name": "Rubi",
+      "index": "rubi",
+      "weight": 1
+    },
+    {
+      "name": "M-Five-Seven",
+      "index": "ammo_pistol_mk2",
+      "weight": 0.05
+    },
+    {
+      "name": "M-Heavy Rifle",
+      "index": "ammo_heavyrifle",
+      "weight": 0.05
+    },
+    {
+      "name": "Energetico",
+      "index": "energetico",
+      "weight": 0.25
+    },
+    {
+      "name": "Adrenalina",
+      "index": "adrenalina",
+      "weight": 0.25
+    },
+    {
+      "name": "Madeira",
+      "index": "madeira",
+      "weight": 2.5
+    },
+    {
+      "name": "Dourado",
+      "index": "dourado",
+      "weight": 3
+    },
+    {
+      "name": "Salmao",
+      "index": "salmao",
+      "weight": 1
+    },
+    {
+      "name": "Pó de MD",
+      "index": "podemd",
+      "weight": 0.1
+    },
+    {
+      "name": "Morfina",
+      "index": "morfina",
+      "weight": 0.1
+    },
+    {
+      "name": "Anel",
+      "index": "anelroubado",
+      "weight": 0.1
+    },
+    {
+      "name": "Lança Perfume",
+      "index": "lancaperfume",
+      "weight": 0.5
+    },
+    {
+      "name": "Haxixe",
+      "index": "haxixe",
+      "weight": 0.5
+    },
+    {
+      "name": "Tecido",
+      "index": "m-tecido",
+      "weight": 0.4
+    },
+    {
+      "name": "Gatilho",
+      "index": "gatilho",
+      "weight": 0.2
+    },
+    {
+      "name": "Corpo de AK47",
+      "index": "m-corpo_ak47_mk2",
+      "weight": 5
+    },
+    {
+      "name": "Sucata",
+      "index": "sucata",
+      "weight": 0.5
+    },
+    {
+      "name": "Laptop",
+      "index": "laptop",
+      "weight": 1
+    },
+    {
+      "name": "Perfume",
+      "index": "perfumeroubado",
+      "weight": 0.3
+    },
+    {
+      "name": "Carteira",
+      "index": "carteiraroubada",
+      "weight": 0.2
+    },
+    {
+      "name": "Vibrador",
+      "index": "vibradorroubado",
+      "weight": 0.3
+    },
+    {
+      "name": "Relógio",
+      "index": "relogioroubado",
+      "weight": 0.2
+    },
+    {
+      "name": "Anel",
+      "index": "anelroubado",
+      "weight": 0.1
+    },
+    {
+      "name": "Colar",
+      "index": "colarroubado",
+      "weight": 0.2
+    },
+    {
+      "name": "Sapatos",
+      "index": "sapatosroubado",
+      "weight": 0.5
+    },
+    {
+      "name": "Carregador",
+      "index": "carregadorroubado",
+      "weight": 0.3
+    },
+    {
+      "name": "Brinco",
+      "index": "brincoroubado",
+      "weight": 0.1
+    },
+    {
+      "name": "Tablet",
+      "index": "tabletroubado",
+      "weight": 0.8
+    },
+    {
+      "name": "Maconha",
+      "index": "maconha",
+      "weight": 0.5
+    }
+  ]
+}

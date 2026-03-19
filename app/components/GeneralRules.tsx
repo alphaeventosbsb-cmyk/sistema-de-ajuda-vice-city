@@ -128,6 +128,7 @@ export function GeneralRules() {
           <li><strong className="text-red-400">Proibido:</strong> É proibido se passar de médico, bombeiro, polícia ou qualquer outro cargo de organização legal.</li>
           <li><strong className="text-red-400">Proibido:</strong> É proibido se passar por membro de alguma facção e/ou organização caso não esteja setado.</li>
           <li><strong className="text-red-400">Proibido:</strong> É proibido pegar itens do baú da própria facção e/ou organização sem autorização do líder, com intuito de prejudicar a mesma.</li>
+          <li><strong className="text-red-400">Proibido:</strong> 01 e 02 do ilegal não podem prender, e sim aplicar camisa de força!</li>
           <li><strong className="text-blue-400">Informação:</strong> Sempre que sair de qualquer profissão legal ou ilegal com setagem, você é obrigado a esquecer automaticamente todas as pessoas e tudo que era envolvido no RP da profissão.</li>
         </ul>
       </section>

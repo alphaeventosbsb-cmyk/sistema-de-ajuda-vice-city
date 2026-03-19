@@ -6,6 +6,7 @@ import { Search, Terminal, Copy, Check, ShieldAlert, Users, Shield, Skull, Crown
 import { motion, AnimatePresence } from 'motion/react';
 import { commandsData, Command, CommandCategory } from '@/data/commands';
 import { punishmentsData, Punishment } from '@/data/punishments';
+import spawnData from '@/data/spawn.json';
 import Markdown from 'react-markdown';
 import { GeneralRules } from '@/app/components/GeneralRules';
 
@@ -31,7 +32,7 @@ const categoryColors: Record<CommandCategory, string> = {
   MECANICA: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
 };
 
-type Tab = 'COMANDOS' | 'REGRAS' | 'PUNICOES' | 'DENUNCIA';
+type Tab = 'COMANDOS' | 'REGRAS' | 'PUNICOES' | 'DENUNCIA' | 'SPAWN';
 
 interface ChatMessage {
   id: string;
@@ -62,6 +63,11 @@ export default function Home() {
     provas: ''
   });
   const [copiedDenuncia, setCopiedDenuncia] = useState(false);
+
+  // Spawn State
+  const [spawnQuery, setSpawnQuery] = useState('');
+  const [spawnType, setSpawnType] = useState<'cars' | 'itens'>('cars');
+  const [copiedSpawn, setCopiedSpawn] = useState<string | null>(null);
 
   // Rules Chat State
   const [chatInput, setChatInput] = useState('');
@@ -129,6 +135,23 @@ export default function Home() {
     return fuseInstance.search(punishmentsQuery).map(result => result.item);
   }, [punishmentsQuery]);
 
+  // Spawn Filter Logic
+  const spawnResults = useMemo(() => {
+    const data = spawnType === 'cars' ? spawnData.cars : spawnData.itens;
+    if (!spawnQuery.trim()) {
+      return data;
+    }
+
+    const keys = spawnType === 'cars' ? ['name', 'model', 'type'] : ['name', 'index'];
+    const fuseInstance = new Fuse(data as any[], {
+      keys,
+      threshold: 0.4,
+      ignoreLocation: true,
+    });
+    
+    return fuseInstance.search(spawnQuery).map(result => result.item);
+  }, [spawnQuery, spawnType]);
+
   // Denuncia Filter & Logic
   const generatedDenunciaText = `ID: ${denunciaForm.id}
 DC: ${denunciaForm.dc}
@@ -177,6 +200,12 @@ PROVAS: ${denunciaForm.provas}`;
     setTimeout(() => setCopiedId(null), 2000);
   };
 
+  const handleCopySpawn = (text: string, id: string) => {
+    navigator.clipboard.writeText(text);
+    setCopiedSpawn(id);
+    setTimeout(() => setCopiedSpawn(null), 2000);
+  };
+
   const handleSendMessage = async (e?: React.FormEvent) => {
     e?.preventDefault();
     if (!chatInput.trim() || isLoading) return;
@@ -195,25 +224,45 @@ PROVAS: ${denunciaForm.provas}`;
       const { default: rulesData } = await import('@/data/rules.json');
       const formattedRules = rulesData.map((r: any) => `--- SEÇÃO: ${r.path} ---\n${r.text}`).join('\n\n');
 
+      const spawnContext = `
+ITENS (Use o 'index' para spawnar):
+${spawnData.itens.map(i => `- Nome: ${i.name} | Spawn (index): ${i.index}`).join('\n')}
+
+CARROS (Use o 'model' para spawnar):
+${spawnData.cars.map(c => `- Nome: ${c.name} | Spawn (model): ${c.model}`).join('\n')}
+      `;
+
       const systemInstruction = `Você é um assistente especialista nas regras e comandos da cidade "Vice City" de GTA RP (Lotus Group).
-Sua função é responder às dúvidas dos jogadores sobre as regras da cidade e ajudá-los a encontrar os comandos corretos.
+Sua função é responder às dúvidas dos jogadores sobre as regras da cidade, comandos e nomes de spawn de itens/carros.
 
 Diretrizes:
-1. Responda baseando-se EXCLUSIVAMENTE nas regras e comandos fornecidos abaixo.
+1. Responda baseando-se EXCLUSIVAMENTE nas regras, comandos e lista de spawns fornecidos abaixo.
 2. Se o jogador perguntar sobre como fazer algo (ex: "como prender alguém"), busque nos comandos fornecidos e indique o comando correto e sua categoria.
 3. Se o jogador perguntar sobre regras, cite a seção da regra (ex: "De acordo com a seção Geral/Punições...") quando possível.
-4. Se a resposta não estiver nas regras ou comandos, diga educadamente que não encontrou essa informação.
-5. Formate sua resposta em Markdown para facilitar a leitura (use negrito, listas, blocos de código para os comandos, etc).
+4. Se o jogador perguntar qual é o item ou spawn de algo (ex: "qual item é para a g3"), busque na lista de ITENS ou CARROS e responda com o nome de spawn (index ou model).
+5. Se a resposta não estiver nas regras, comandos ou spawns, diga educadamente que não encontrou essa informação.
+6. Formate sua resposta em Markdown para facilitar a leitura (use negrito, listas, blocos de código para os comandos/spawns, etc).
 
 COMANDOS DA CIDADE:
 ${rulesContext}
 
+SPAWNS (ITENS E CARROS):
+${spawnContext}
+
 REGRAS DA CIDADE:
 ${formattedRules}`;
 
+      const history = messages.filter(m => m.id !== 'welcome').map(m => ({
+        role: m.role === 'bot' ? 'model' : 'user',
+        parts: [{ text: m.content }]
+      }));
+
       const response = await ai.models.generateContent({
         model: 'gemini-3-flash-preview',
-        contents: userMsg,
+        contents: [
+          ...history,
+          { role: 'user', parts: [{ text: userMsg }] }
+        ],
         config: {
           systemInstruction,
           temperature: 0.2,
@@ -304,6 +353,17 @@ ${formattedRules}`;
             >
               <ClipboardEdit className="w-4 h-4" />
               Gerar Punição
+            </button>
+            <button
+              onClick={() => setActiveTab('SPAWN')}
+              className={`flex-1 min-w-[140px] flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium transition-all ${
+                activeTab === 'SPAWN' 
+                  ? 'bg-amber-500/20 text-amber-300 shadow-sm border border-amber-500/30' 
+                  : 'text-zinc-400 hover:text-zinc-200 hover:bg-white/5'
+              }`}
+            >
+              <Search className="w-4 h-4" />
+              Spawns
             </button>
           </div>
         </div>
@@ -641,6 +701,127 @@ ${formattedRules}`;
                   )}
                 </button>
               </div>
+            </div>
+          </motion.div>
+        ) : activeTab === 'SPAWN' ? (
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="flex flex-col h-full"
+          >
+            {/* Search Bar for Spawns */}
+            <div className="relative mb-8 group">
+              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <Search className="h-5 w-5 text-zinc-500 group-focus-within:text-amber-400 transition-colors" />
+              </div>
+              <input
+                type="text"
+                className="block w-full pl-12 pr-4 py-4 bg-zinc-900/50 border border-white/10 rounded-2xl leading-5 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-500/50 transition-all text-lg shadow-lg backdrop-blur-sm"
+                placeholder="Buscar spawn (ex: G36, F620)..."
+                value={spawnQuery}
+                onChange={(e) => setSpawnQuery(e.target.value)}
+              />
+            </div>
+
+            {/* Type Toggle */}
+            <div className="flex justify-center gap-2 mb-8">
+              <button
+                onClick={() => setSpawnType('cars')}
+                className={`px-6 py-2.5 rounded-xl font-medium transition-all ${
+                  spawnType === 'cars' 
+                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30 shadow-sm' 
+                    : 'bg-zinc-900 text-zinc-400 hover:bg-zinc-800 border border-white/5'
+                }`}
+              >
+                Carros
+              </button>
+              <button
+                onClick={() => setSpawnType('itens')}
+                className={`px-6 py-2.5 rounded-xl font-medium transition-all ${
+                  spawnType === 'itens' 
+                    ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30 shadow-sm' 
+                    : 'bg-zinc-900 text-zinc-400 hover:bg-zinc-800 border border-white/5'
+                }`}
+              >
+                Itens
+              </button>
+            </div>
+
+            {/* Spawns List */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-10">
+              <AnimatePresence mode="popLayout">
+                {spawnResults.length > 0 ? (
+                  spawnResults.map((item: any, index: number) => {
+                    const id = item.model || item.index;
+                    return (
+                      <motion.div
+                        layout
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.95 }}
+                        transition={{ duration: 0.2 }}
+                        key={`${id}-${index}`}
+                        className="group bg-zinc-900/40 border border-white/5 rounded-2xl p-5 hover:bg-zinc-900/80 hover:border-white/10 transition-all flex flex-col justify-between gap-4"
+                      >
+                        <div>
+                          <h3 className="font-bold text-lg text-zinc-200 mb-1">{item.name}</h3>
+                          <div className="flex flex-wrap gap-2">
+                            <span className="font-mono text-sm text-amber-400 bg-amber-500/10 px-2 py-1 rounded-md border border-amber-500/20">
+                              {id}
+                            </span>
+                            {item.type && (
+                              <span className="text-xs uppercase tracking-wider px-2 py-1 rounded-md border border-white/10 bg-white/5 text-zinc-400">
+                                {item.type}
+                              </span>
+                            )}
+                            {item.trunk && (
+                              <span className="text-xs uppercase tracking-wider px-2 py-1 rounded-md border border-white/10 bg-white/5 text-zinc-400">
+                                Porta-malas: {item.trunk}kg
+                              </span>
+                            )}
+                            {item.weight && (
+                              <span className="text-xs uppercase tracking-wider px-2 py-1 rounded-md border border-white/10 bg-white/5 text-zinc-400">
+                                Peso: {item.weight}kg
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                        
+                        <button
+                          onClick={() => handleCopySpawn(id, id)}
+                          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-zinc-800 hover:bg-zinc-700 text-zinc-300 rounded-xl font-medium text-sm transition-colors border border-white/5 focus:outline-none focus:ring-2 focus:ring-amber-500/50"
+                        >
+                          {copiedSpawn === id ? (
+                            <>
+                              <Check className="w-4 h-4 text-emerald-400" />
+                              <span className="text-emerald-400">Copiado</span>
+                            </>
+                          ) : (
+                            <>
+                              <Copy className="w-4 h-4" />
+                              <span>Copiar Spawn</span>
+                            </>
+                          )}
+                        </button>
+                      </motion.div>
+                    );
+                  })
+                ) : (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    className="col-span-full text-center py-20"
+                  >
+                    <div className="w-16 h-16 mx-auto bg-zinc-900 rounded-full flex items-center justify-center mb-4 border border-white/5">
+                      <Search className="w-8 h-8 text-zinc-600" />
+                    </div>
+                    <h3 className="text-xl font-medium text-zinc-300 mb-2">Nenhum spawn encontrado</h3>
+                    <p className="text-zinc-500">
+                      Tente buscar com outras palavras.
+                    </p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </motion.div>
         ) : (
